@@ -1,0 +1,42 @@
+@use '../base/variables' as v;
+
+body {
+    display: grid;
+    grid-template-columns: [full-start] v.$side-margin [main-start] 3fr [main-end side-start] 1fr [side-end] v.$side-margin [full-end];
+    grid-template-rows: [header-start] v.$header-height[header-end content-start nav-start] auto [nav-end main-start] 1fr [main-end content-end footer-start] v.$footer-height [footer-end];
+    align-content: start;
+    align-items: start;
+}
+
+.header {
+    grid-column: full;
+    grid-row: header;
+}
+
+nav {
+    grid-column: full;
+    grid-row: nav;
+}
+
+main {
+    grid-column: main;
+    grid-row: main;
+}
+
+.hp-main {
+    grid-column: main-start / side-end;
+    grid-row: content;
+    justify-self: center;
+    align-self: center;
+}
+
+.side {
+    grid-column: side;
+    grid-row: main;
+}
+
+.footer {
+    grid-column: full;
+    grid-row: footer;
+    align-self: stretch;
+}

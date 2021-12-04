@@ -1,0 +1,10 @@
+@mixin flexbox($justify, $equalItems:false, $numberOfItems:1) {
+    display: flex;
+    align-items: center;
+    justify-content: $justify;
+    @if $equalItems {
+        & > * {
+            flex-basis: calc(100% / #{$numberOfItems})
+        }
+    }
+}

@@ -1,0 +1,8 @@
+@use '../base/variables' as v;
+
+.side {
+    background-color: v.$yellow-light;
+    padding: 15px;
+    border-radius: 15px;
+    min-height: 50vh;
+}

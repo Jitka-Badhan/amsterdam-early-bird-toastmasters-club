@@ -1,0 +1,37 @@
+@use '../base/variables' as v;
+@use '../base/mixins' as m;
+
+.header {
+    @include m.flexbox(space-between);
+    padding: 5px 30px;
+
+    a {
+        text-decoration: none;
+        color: v.$black;
+    }
+    
+    &__logo-toastm-int {
+        @include m.flexbox(center);
+        height: 40px;
+    }
+
+    &__img {
+        height: 100%;
+        &--label {
+            padding-left: 15px;
+        }
+    }
+
+    &__nav {
+        @include m.flexbox(space-between);
+        width: 25vw;
+        min-width: 250px;
+        > a {
+            &:hover,
+            &:focus,
+            &:active {
+                text-decoration: underline;
+            }
+        }
+    }
+}

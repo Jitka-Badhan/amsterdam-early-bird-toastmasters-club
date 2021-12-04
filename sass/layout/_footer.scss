@@ -1,0 +1,21 @@
+@use '../base/variables' as v;
+@use '../base/mixins' as m;
+
+.footer {
+    @include m.flexbox(space-between);
+    background-color: v.$black;
+    color: v.$white;
+    font-size: v.$small;
+    padding: 5px 30px;
+
+    a {
+        color: v.$white;
+        &:visited {
+            color: v.$yellow;
+        }
+    }
+
+    &__copyright > *:not(:first-child) {
+        padding-left: 5px;
+    }
+}

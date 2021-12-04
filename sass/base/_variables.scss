@@ -1,0 +1,26 @@
+@use 'sass:color' as *;
+
+// Colors
+$blue: #3c65af;
+$blue-light: adjust($blue, $lightness: 30%);
+$red: #cc3433;
+$red-light: adjust($red, $lightness: 30%);
+$orange: #f36b25;
+$orange-light: adjust($orange, $lightness: 30%);
+$yellow: #eeea5d;
+$yellow-light: adjust($yellow, $lightness: 20%);
+$black: #0a0a0a;
+$white: #f5f5f5;
+
+// Typography - fonts
+
+
+// Typography - sizes
+$small: 12px;
+$base: 16px;
+$big: 18px;
+
+// Dimensions
+$header-height: 50px;
+$footer-height: 35px;
+$side-margin: 10vw;
