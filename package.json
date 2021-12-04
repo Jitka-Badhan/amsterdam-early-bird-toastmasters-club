@@ -1,0 +1,16 @@
+{
+  "name": "amsterdam-early-bird-toastmasters-club",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  },
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "serve": "npx @11ty/eleventy --serve"
+  },
+  "keywords": [],
+  "author": "Jitka Badhan Nebeska <jitkabadhan@gmail.com>",
+  "license": "ISC"
+}
