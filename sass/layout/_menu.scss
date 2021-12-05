@@ -1,0 +1,132 @@
+@use '../base/variables' as v;
+@use '../base/mixins' as m;
+
+$gridUnit: 110px;
+
+@mixin menuGrid($class, $justify, $align, $reverse:false) {
+    .#{$class} {
+        grid-area: $class;
+        width: 100%;
+        justify-self: $justify;
+        align-self: $align;
+        @include m.flexbox(flex-start);
+        @if $reverse {
+            flex-direction: row-reverse;
+        }
+        &__btn {
+            flex-basis: $gridUnit;
+        }
+        &__side {
+            flex-basis: calc(100% - #{$gridUnit});
+            text-align: left;
+            @if $reverse {
+                text-align: right;
+            }
+        }
+    }
+}
+
+@mixin gradientBackground($color, $side) {
+    background-image: linear-gradient(to $side, transparent 5%, $color 95%);
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: 1fr $gridUnit 1fr;
+    grid-template-areas:
+        "welcome mascot roles"
+        "starter mascot about"
+    ;
+    gap: 3px 0;
+    margin: -30px 30px -15px;
+
+    @include menuGrid(welcome, end, end, true);
+    @include menuGrid(starter, end, start, true);
+    @include menuGrid(roles, start, end);
+    @include menuGrid(about, start, start);
+
+    &__mascot {
+        grid-area: mascot;
+        > img {
+            width: 100%;
+        }
+    }
+
+    a {
+        color: v.$white;
+        text-decoration: none;
+        &:hover,
+        &:focus,
+        &:active {
+            font-weight: bold;
+        }
+    }
+
+    &__link,
+    &__anchors {
+        padding: 3px;
+        border-radius: 15px;
+        text-align: center;
+        min-height: calc(#{v.$base} + 8px);
+    }
+
+    &__link {
+        z-index: 1;
+    }
+
+    &__anchors {
+        visibility: visible;
+        opacity: 1;
+        transition: visibility 0.5s, opacity 0.2s linear;
+        margin: 0 -30px;
+        padding-left: 35px;
+        padding-right: 35px;
+        > a {
+            color: v.$black;
+            padding: 0 5px;
+        }
+    }
+
+    .welcome {
+        &__btn {
+            background-color: v.$red;
+        }
+        &__side {
+            @include gradientBackground(v.$red-light, right);
+        }
+    }
+
+    .starter {
+        &__btn {
+            background-color: v.$orange;
+        }
+        &__side {
+            @include gradientBackground(v.$orange-light, right);
+        }
+    }
+
+    .roles {
+        &__btn {
+            background-color: v.$yellow;
+            color: v.$black;
+        }
+        &__side {
+            @include gradientBackground(v.$yellow-light, left);
+            color: v.$black;
+        }
+    }
+
+    .about {
+        &__btn {
+            background-color: v.$blue;
+        }
+        &__side {
+            @include gradientBackground(v.$blue-light, left);
+        }
+    }
+
+    .hidden {
+        visibility: hidden;
+        opacity: 0;
+    }
+}
