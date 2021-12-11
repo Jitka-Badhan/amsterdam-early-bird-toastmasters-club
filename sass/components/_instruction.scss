@@ -1,0 +1,106 @@
+@use '../base/variables' as v;
+
+.instruction {
+    border-width: 2px;
+    border-style: dashed;
+    border-radius: 15px;
+    margin-bottom: v.$margin-small;
+    overflow: hidden;
+    > * {
+        padding: v.$margin-small;
+    }
+
+    &__heading {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h4 {
+            margin-bottom: 0;
+        }
+        &:hover,
+        &:focus,
+        &:active {
+            cursor: pointer;
+        }
+    }
+
+    &__arrow {
+        width: 15px;
+        height: 15px;
+        transform: rotate(0deg);
+        transition: transform 500ms;
+        > img {
+            width: 100%;
+        }
+        &--up {
+            transform: rotate(180deg);
+        }
+    }
+
+    &__body {
+        border-top: 1px solid v.$black;
+        &--hidden {
+            display: none;
+        }
+    }
+
+    &__list {
+        margin-bottom: 0;
+    }
+
+    &__list-item {
+        > p {
+            margin: 0;
+        }
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    &__divider {
+        margin: v.$margin-small 0 calc(#{v.$margin-small} - 10px);
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    &__olist, &__ulist {
+        ul {
+            list-style-type: disc;
+            padding-left: 0;
+        }
+    }
+
+    &__olist-item > p, 
+    &__ulist-item > p {
+        margin-bottom: calc(#{v.$margin-small} - 10px);
+        font-weight: 600;
+    }
+
+    &:nth-of-type(4n+1) {
+        border-color: v.$orange;
+        .instruction__heading {
+            background-color: v.$orange-light;
+        }
+    }
+
+    &:nth-of-type(4n+2) {
+        border-color: v.$red;
+        .instruction__heading {
+            background-color: v.$red-light;
+        }
+    }
+
+    &:nth-of-type(4n+3) {
+        border-color: v.$blue;
+        .instruction__heading {
+            background-color: v.$blue-light;
+        }
+    }
+
+    &:nth-of-type(4n+4) {
+        border-color: v.$yellow;
+        .instruction__heading {
+            background-color: v.$yellow-light;
+        }
+    }
+}

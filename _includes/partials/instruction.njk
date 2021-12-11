@@ -1,0 +1,97 @@
+<div class="instruction">
+    
+    <div class="instruction__heading">
+        <h4>{{ item.heading }}</h4>
+        <span class="instruction__arrow"><img src="/assets/images/arrow.png" alt="arrow icon"></span>
+    </div>
+
+    <div class="instruction__body instruction__body--hidden">
+        
+        {% if item.instructions %}
+            <ul class="instruction__list">
+
+                {% for inst in item.instructions %}
+                    <li class="instruction__list-item">
+                        
+                        {% if inst.paragraphs.length > 1 %}
+                            {% for paragraph in inst.paragraphs %}
+                                <p>{{ paragraph }}</p>
+                            {% endfor %}
+                        {% else %}
+                            {{ inst.paragraphs[0] }}
+                        {% endif %}
+
+                        {% if inst.img-src %}
+                            <div class="instruction__img--wrapper">
+                                <img class="instruction__img" src={{ inst.img-src }} alt="illustrative picture" />
+                            </div>
+                        {% endif %}
+
+                        {% if inst.ulist %}
+                            <ul class="instruction__ulist">
+                                {% for item in inst.ulist %}
+                                    <li class="instruction__list-subitem">{{ item }}</li>
+                                {% endfor %}
+                            </ul>
+                        {% endif %}
+
+                        {% if inst.olist %}
+                            <ol class="instruction__olist">
+                                {% for item in inst.ulist %}
+                                    <li class="instruction__list-subitem">{{ item }}</li>
+                                {% endfor %}
+                            </ol>
+                        {% endif %}
+                    
+                    </li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+            
+        {% if item.unorderedInstructionsTop %}
+            {% for it in item.unorderedInstructionsTop %}
+                <div class="instruction__ulist--wrapper">
+                    <p>{{ it.mainLine }}</p>
+                    <ul class="instruction__ulist">
+                        {% for subItem in it.subItems %}
+                            <li class="instruction__list-item">{{ subItem }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            {% endfor %}
+        {% endif %}
+        
+        {% if item.divider %}
+            <div class="instruction__divider">{{ item.divider }}</div>
+        {% endif %}
+
+        {% if item.unorderedInstructionsBottom %}
+            <ul class="instruction__ulist">
+                {% for it in item.unorderedInstructionsBottom %}
+                    {% if it.mainline %}<p>{{ it.mainLine }}</p>{% endif %}
+                    <ul class="instruction__ulist">
+                        {% for subItem in it.subItems %}
+                            <li class="instruction__list-item">{{ subItem }}</li>
+                        {% endfor %}
+                    </ul>
+                {% endfor %}
+            </ul>
+        {% endif %}
+
+        {% if item.orderedInstructions %}
+            <ol class="instruction__olist">
+                {% for it in item.orderedInstructions %}
+                    <li class="instruction__olist-item">
+                        <p>{{ it.mainLine }}</p>
+                        <ul class="instruction__olist-subitem--wrapper">
+                            {% for subItem in it.subItems %}
+                                <li class="instruction__list-item">{{ subItem }}</li>
+                            {% endfor %}
+                        </ul>
+                    </li>
+                {% endfor %}
+            </ol>
+        {% endif %}
+
+    </div>
+</div>

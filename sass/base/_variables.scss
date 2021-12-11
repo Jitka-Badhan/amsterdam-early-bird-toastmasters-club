@@ -13,13 +13,21 @@ $black: #0a0a0a;
 $white: #ffffff;
 
 // Typography - fonts
+$font-heading: 'Abril Fatface', cursive;
+$font-text: 'Josefin Sans', sans-serif;
 
-// Typography - sizes
-$small: 12px;
-$base: 16px;
-$big: 18px;
+// Typography - font sizes
+$small: 14px;
+$smaller: 16px;
+$base: 18px;
+$big: 20px;
 
 // Dimensions
 $header-height: 50px;
 $footer-height: 35px;
 $side-margin: 10vw;
+
+// Margins
+$margin-big: 50px;
+$margin-middle: 35px;
+$margin-small: 15px;

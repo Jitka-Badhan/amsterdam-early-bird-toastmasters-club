@@ -1,0 +1,170 @@
+[
+    {
+        "heading": "Login",
+        "instructions": [
+            {
+                "paragraphs": ["Important to remember that the login for this website will be your <strong>email id</strong> - the same email id that you provided when you signed the club membership."]
+            },
+            {
+                "paragraphs": ["Do not attempt to sign in with your easy speak username!"]
+            },
+            {
+                "paragraphs": ["FIRST TIME LOGIN:", "Click on \"Forgot Password\" to setup your login for the first time. Provide your email id (mentioned above)."]
+            },
+            {
+                "paragraphs": ["Login with your email-id and password."]
+            },
+            {
+                "paragraphs": ["You will land on the Toastmasters International website."]
+            },
+            {
+                "paragraphs": ["On the main navigation menu, click on <strong>Pathways</strong>."]
+            }
+        ]
+    },
+    {
+        "heading": "Choosing a pathway",
+        "instructions": [
+            {
+                "paragraphs": ["As a member of the Amsterdam Early Bird Toastmasters club, you have paid for ONE pathway."]
+            },
+            {
+                "paragraphs": ["After you choose a pathway, you have a time of one month to select a different pathway in case you change your mind."]
+            },
+            {
+                "paragraphs": ["If you want to choose more pathways, you can choose and pay yourself (cost is 20 EUR)."]
+            },
+            {
+                "paragraphs": ["Click on \"Choose a path\" or \"Go to Base Camp\" (both end up same)."]
+            },
+            {
+                "paragraphs": ["Click on \"Choose a path\" or \"Go to Base Camp\" (both end up same)."]
+            },
+            {
+                "paragraphs": ["You will see 3 tiles."]
+            },
+            {
+                "paragraphs": ["Click on the first tile \"Choose your Path\"."]
+            },
+            {
+                "paragraphs": ["You will be asked a few questions. Based on your answers, a few paths will be suggested."]
+            },
+            {
+                "paragraphs": ["You are free to choose whichever pathway you like."]
+            }
+        ]
+    },
+    {
+        "heading": "Start learning",
+        "instructions": [
+            {
+                "paragraphs": ["Go to main menu Pathways -> Go to Base Camp."]
+            },
+            {
+                "paragraphs": ["In the middle tile, select \"Go to Base Camp\"."]
+            },
+            {
+                "paragraphs": ["This will show you a page with 5 tiles."]
+            },
+            {
+                "paragraphs": ["Click on the 2nd tile \"Education Transcript - Access my Path\"."]
+            },
+            {
+                "paragraphs": ["This will list the paths you have selected. (Ignore The Navigator, if listed there)"]
+            },
+            {
+                "paragraphs": ["On the right side, click on \"Open Curriculum\"."]
+            },
+            {
+                "paragraphs": ["Here you will see all speech assignments listed for your pathways."]
+            },
+            {
+                "paragraphs": ["Click on \"Launch\" if you are planning to do a speech. (You may need to disable pop ups in your browser)"]
+            },
+            {
+                "paragraphs": ["Each assignment curriculum will look something like this, after you \"Launch\"."],
+                "ulist": ["1st section \"Your Assignment\".", "2nd section \"Access your skills - Before\". You do this BEFORE you give the actual speech. This is to compare how you fared, when you do the same exercise after your speech.", "3rd section \"Competencies\".", "4th & 5th sections \"Video\" - please watch it before your speech! Good learning material."]
+            },
+            {
+                "paragraphs": ["=> ... so on up until \"After your speech\". As the name suggests, you do this AFTER you give the speech."]
+            }
+        ]
+    },
+    {
+        "heading": "Mark project complete",
+        "instructions": [
+            {
+                "paragraphs": ["After you start a project as mentioned above, you will continue it with \"After your speech\" section."]
+            },
+            {
+                "paragraphs": ["You will be given a series of questions to access yourself. At the end, you need to mark your Assignment as Complete."]
+            },
+            {
+                "paragraphs": ["If you have problems marking assignment complete, please contact the VPE."]
+            },
+            {
+                "paragraphs": ["After your assignment is marked complete, you will see a small tick on top."]
+            }
+        ],
+        "divider": "Remember",
+        "unorderedInstructionsBottom": [
+            {
+                "subItems": ["It is important to update the status of your assignment in Pathways."]
+            }, 
+            {
+                "subItems": ["Easy speak IS NOT automatically connected to Pathways. These are two different tools."]
+            }, 
+            {
+                "subItems": ["Easy speak will only show meeting attendance scheduling, but you will need to mark your projects in Pathways yourself."]
+            }
+        ]
+    },
+    {
+        "heading": "Request feedback",
+        "unorderedInstructionsTop": [
+            {
+                "mainLine": "If you have just given a speech, you would want to request feedback from your evaluator.",
+                "subItems": ["First login to www.toastmasters.org and go to Pathways -> Go to Base Camp.", "Again select \"Go to Base Camp\" from the middle tile."]
+            }
+        ],
+        "divider": "2 steps:",
+        "orderedInstructions": [
+            {
+                "mainLine": "Provide an evaluation form (if the evaluator does not already have it)",
+                "subItems": ["In Base camp, you will see a page with 5 tiles", "Click on the 5th tile \"Speech Evaluations\"", "You will find forms for all types of speeches"]
+            },
+            {
+                "mainLine": "Request feedback in pathways",
+                "subItems": ["Go back to Base camp, by clicking Home -> Home", "Here you will see a page with 5 tiles", "Click on the 3rd tile \"My Feedback\"", "Here you'll see a section \"Feedback Request\"", "Once you put the cursor in the text box, it will show another 2 fields, where you can type the name of the evaluator", "When you start typing the name of the evaluator, the name is auto-completed for club members", "After filling in the details, click on \"Post\" button to submit the request"]
+            }
+        ]
+    },
+    {
+        "heading": "Provide feedback",
+        "unorderedInstructionsTop": [
+            {
+                "mainLine": "If you have recently evaluated a Toastmaster or you are going to,  you should provide your valuable feedback to the member.",
+                "subItems": ["First login to www.toastmasters.org and go to Pathways -> Go to Base Camp.", "Again select \"Go to Base Camp\" from the middle tile."]
+            }
+        ],
+        "divider": "2 steps and situations:",
+        "orderedInstructions": [
+            {
+                "mainLine": "Get the evaluation form (if the speaker has not already given it to you)",
+                "subItems": ["In Base camp, you will see a page with 5 tiles", "Click on the 5th tile \"Speech Evaluations\"", "You will find forms for all types of speeches", "Note: these PDFs are editable"]
+            },
+            {
+                "mainLine": "Provide feedback",
+                "subItems": ["You can fill the form either after taking a print out and writing it. Or filling the form in your computer (the PDFs have text boxes). If you write it by hand, scan the form later."]
+            },
+            {
+                "mainLine": "SITUATION: Responding to feedback requests",
+                "subItems": ["Go back to Base camp, by clicking Home -> Home", "Click on the 3rd tile \"My Feedback\"", "Click on 3 dots \"...\" button on the right, to see \"View All Feedback Requests\"", "Go to the request and attach the feedback form in the reply thread"]
+            },
+            {
+                "mainLine": "SITUATION: Providing request to member",
+                "subItems": ["After logging into Pathways Basecamp, on the right side top, you see a \"Search bar\"", "Type the name of the member to whom you want to provide feedback", "Pathways will autocomplete the name, click on the person's name", "This will open a \"Universal Profile Bio\" page", "Click on the \"Feedback\" menu section on top", "Here you will find \"Share your feedback\" section", "You can type your feedback and also attach your evaluation form (filled/scanned)"]
+            }
+        ]
+    }
+]

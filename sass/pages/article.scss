@@ -1,1 +1,38 @@
 @use '../base';
+@use '../components/textbox';
+@use '../components/instruction';
+
+@use '../base/variables' as v;
+
+.article {
+    margin: 25px v.$margin-big 0 0;
+
+    section {
+        margin-bottom: v.$margin-big;
+        &:not(:last-child)::after {
+            display: block;
+            content: '';
+            width: 150px;
+            border-top: 1px solid black;
+            margin-top: v.$margin-middle;
+        }
+    }
+    
+    &__link {
+        font-weight: 600;
+        color: v.$black;
+        &:hover,
+        &:focus,
+        &:active {
+            font-weight: bold;
+        }
+    }
+
+    &__list {
+        margin-bottom: v.$margin-middle;
+    }
+
+    .line-over {
+        text-decoration: line-through;
+    }
+}

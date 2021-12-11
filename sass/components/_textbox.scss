@@ -1,0 +1,11 @@
+@use '../base/variables' as v;
+
+.textbox {
+    background-color: v.$blue-light;
+    padding: 25px;
+    border-radius: 15px;
+    margin: 50px 0;
+    > *:last-child {
+        margin-bottom: 0;
+    }
+}

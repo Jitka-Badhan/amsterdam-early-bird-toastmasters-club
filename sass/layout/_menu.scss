@@ -1,7 +1,7 @@
 @use '../base/variables' as v;
 @use '../base/mixins' as m;
 
-$gridUnit: 110px;
+$gridUnit: 130px;
 
 @mixin menuGrid($class, $justify, $align, $reverse:false) {
     .#{$class} {
@@ -38,7 +38,7 @@ $gridUnit: 110px;
         "starter mascot about"
     ;
     gap: 3px 0;
-    margin: -30px 30px -15px;
+    margin: -30px 30px 0;
 
     @include menuGrid(welcome, end, end, true);
     @include menuGrid(starter, end, start, true);
@@ -64,14 +64,16 @@ $gridUnit: 110px;
 
     &__link,
     &__anchors {
-        padding: 3px;
+        padding: 8px 3px 5px;
         border-radius: 15px;
         text-align: center;
-        min-height: calc(#{v.$base} + 8px);
     }
 
     &__link {
         z-index: 1;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: v.$smaller;
     }
 
     &__anchors {
