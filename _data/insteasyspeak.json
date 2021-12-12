@@ -1,0 +1,104 @@
+[
+    {
+        "heading": "Login",
+        "instructions": [
+            {
+                "paragraphs": ["Go to link : www.tmclub.eu"]
+            },
+            {
+                "paragraphs": ["Note - this website is not mobile web friendly; best viewed on computer/tablet."]
+            },
+            {
+                "paragraphs": ["Log in with your username  that you received in a separate email from our club.","Note:- Do NOT use your email for login."]
+            },
+            {
+                "paragraphs": ["If you have not received the email, please contact the Vice President of Membership or President (check officers here)"]
+            }
+        ],
+        "divider": "After you have signed in, go to your home club Amsterdam Early Bird Toastmasters Club. Your website should look something like this:",
+        "img-src": ""
+    },
+    {
+        "heading": "Mark avalaibility",
+        "instructions": [
+            {
+                "paragraphs": ["To check the next meetings, go to the main menu \"Meetings\" and click on \"Meeting on <next date>\""]
+            },
+            {
+                "paragraphs": ["Mark your attendance by click on the green thumb at the top of the meeting schedule"],
+                "ulist": ["\"Green thumbs up\" means a YES", "\"Red thumbs down\" means a NO."]
+            },
+            {
+                "paragraphs": ["Good practice is to mark a YES for the upcoming weeks you are available in advance. This helps the VPE immensely in scheduling!"]
+            },
+            {
+                "paragraphs": ["Click on the \"Next\" icon on the right side top, to go the next meeting and do the same."]
+            },
+            {
+                "paragraphs": ["On the left hand side, under the club name, you can find many items of navigation. Feel free to explore on your own. If you have questions, ask your Vice President of Education."]
+            }
+        ]
+    },
+    {
+        "heading": "Sign up for roles",
+        "instructions": [
+            {
+                "paragraphs": ["When you open a future meeting, all non-speaking roles that are unassigned will be available for taking up"]
+            },
+            {
+                "paragraphs": ["Click on the \"yes\" button to sign up for a role"]
+            },
+            {
+                "paragraphs": ["To earn one Speaker spot, you need to fulfil at least 2 functionary roles in meetings"]
+            }
+        ],
+        "divider": "Roles can be accepted from the mobile site. Image of how it looks is here:",
+        "img-src": ""
+    },
+    {
+        "heading": "Request a speech",
+        "divider": "Who gets to do a speech? What decides this? Every member has the right to give a speech in our club. But sometimes it can get tricky. :-) In order to ensure good participation of members for a wholesome meeting, every member is requested to do at least 2 roles for every speech.That means, you can sign up for any role for 2 meetings before you do a speech. And then repeat.",
+        "unorderedInstructionsBottom": [
+            {
+                "subItems": ["On the left hand side, expand \"My Participation\""]
+            },
+            {
+                "subItems": ["Click on Request for Speech to request a speech"] 
+            },
+            {
+                "subItems": [""]
+            },
+            {
+                "subItems": ["Now, you will need to fill at least 2 things:Speech title and Workbook/Speech "]
+            },
+            {
+                "subItems": ["For Speech title, give anything you think is appropriate"]
+            },
+            {
+                "subItems": ["For Workbook/Speech, when you do the first time, you will need to select a new workbook."]
+            },
+            {
+                "subItems": ["When you are not doing the first time, your old workbook will be shown, along with an option to choose a new workbook."]
+            },
+            {
+                "subItems": ["REMEMBER: Your workbook should match the Pathways that you have chosen."]
+            },
+            {
+                "subItems": ["Because Easy-speak and Pathways are 2 different systems, Easy speak does not automatically fetch your details from Pathways."]
+            },
+            {"subItems": ["Read about choosing your Pathways here."]}
+        ],
+        "img-src": ""
+    },
+    {
+        "heading": "View past speeches",
+        "instructions": [
+            {
+                "paragraphs": ["Under \"My Participation\" click on \"View my Speech Progress\""]
+            },
+            {
+                "paragraphs": ["You will see your workbooks listed, along with dates."]
+            }
+        ]
+    }
+]
