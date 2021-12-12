@@ -4,4 +4,67 @@ title: About us
 cssFileName: article
 ---
 
-<p>Zde bude výčet text</p>
+<section class="about">
+    <p>We are a Toastmasters club - we meet every other week to practice our public speaking. We are Amsterdam Early Bird - we get together on Saturday mornings. Yet that's not all we are!</p>
+    <p>We are proud to combine the dedication to the highest professionality and respect to the proven Toastmaster programs and methods, with the welcoming and supportive togetherness that we, members of the Amsterdam Early Bird Toastmasters club, co-create.</p>
+    <p>We are here to support each other in improving communication skills, developing capacity for leadership and stimulating personal growth. We are here to Rise and Shine!</p>
+</section>
+
+<section id="mascot" class="mascot">
+    <h2>The Amsterdam Early Bird Club Mascot</h2>
+
+    <p>At Toastmasters we value integrity, honesty, and respect. That is the promise we gave, when we joined Toastmasters.</p>
+    <p>But in our Amsterdam Early Bird Toastmasters Club we also value the motivation to take charge and contribute, diversity, transformation, knowledge, and a positive and friendly atmosphere where we support and learn from each other.</p>
+    <p>This is what our club culture is about, and this is exactly what you will experience, during our gatherings when we as early risers flock together on Saturday mornings. When we compete in contests. When we organise events outside our regular club meetings to socialise, and improve our public speaking, communication, and leadership skills.</p>
+    <p>Of course we needed a logo to reflect what we stand for. In August 2019 our club held a logo contest, where all members could participate. The winning submission is the one you can see here. There is plenty of symbolism and meaning in our logo to reflect who we are as a club.</p>
+    <p>Our motto is <strong>"Rise and shine!"</strong></p>
+
+    <div class="mascot__img--wrapper">
+        <img class="mascot__img" src="/assets/images/amsterdam-early-bird-big.png" alt="AEBC mascot"/>
+    </div>
+
+    <div class="textbox mascot__box">
+        <h3>The Story of the Early Bird</h3>
+
+        <div class="mascot__descr-item">
+            <h4>Background</h4>
+            <p>The background consists of two half circles separated by white space in between them:</p>
+            <ul class="article__list">
+                <li class="article__list-item">The bottom half circle represents the moon, which is visible during night; the place where our dreams, wishes, and desires originate from.</li>
+                <li class="article__list-item">The upper half circle represents the rising sun, the morning, and simultaneously a new day with new opportunities; a fresh start.</li>
+                <li class="article__list-item">The white space between them is the transition from one state to the other.</li>
+            </ul>
+            <p>The combination of these elements together represent the change one goes through when becoming a Toastmaster. The color combination also represents the colours of the original Dutch flag, as used by rebells during the 80 year war against Spain, and yes - you guessed it right, we are also a little bit of a rebellious bunch, too.</p>
+        </div>
+
+        <div class="mascot__descr-item">
+            <h4>Diversity, self-motivation, knowledge, wisdom and transformation</h4>
+            <p>From the United States to Japan and back – our Amsterdam based club consists of members that come from all around the world. Our club draws its strength from the cultural diversity and the diverse backgrounds of its members, who are creatives, scientists, technologists, and humanitarians. We value our diversity – a lot!</p>
+            <p>To represent this diversity, the Early Bird itself is made up of various bird species, and each of the birds represents one of our values:</p>
+            <ul class="article__list">
+                <li class="article__list-item">There is the comb of a rooster, known for being an early riser; thus representing self-motivation, and action</li>
+                <li class="article__list-item">There is the head of an owl, representing knowledge and wisdom</li>
+                <li class="article__list-item">There is the long tail of a legendary creature: the phoenix, known for rising out of the ashes and becoming something new</li>
+            </ul>
+        </div>
+
+        <div class="mascot__descr-item">
+            <h4>Rise and shine!</h4>
+            <p>The Early Bird itself emerges from an original dream or vision that each of its diverse members has when joining the club. The Early Bird spreads its wings, transitions into the light where it changes. It becomes wise and knowledgeable and is able to soar.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contests" class="contests">
+    <h2>Contests</h2>
+    <p>Part of the fun at Toastmasters are the traditional <strong>Speech contests</strong>. We compete in the Humorous, Evaluation, Tall Tales, Table Topics and International speech contests. Club level with club contests. The winners continue competing through the Area, Division and District levels. Winners of the District level International Speech Contest proceed to the region quarterfinal level. Following region quarterfinals, winners advance to the semifinals for a chance to take part in the World Championship of Public Speaking®.</p>
+    <p>So if you enjoy healthy and exciting competition - you are in for a treat!</p>
+</section>
+
+<section id="officers" class="officers">
+    <h2>Club Officers</h2>
+
+    {% for officer in officers %}
+        {% include 'partials/officer.njk' %}
+    {% endfor %}
+</section>

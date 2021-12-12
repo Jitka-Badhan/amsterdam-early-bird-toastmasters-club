@@ -1,6 +1,7 @@
 @use '../base';
 @use '../components/textbox';
 @use '../components/instruction';
+@use '../components/officer';
 
 @use '../base/variables' as v;
 
@@ -34,5 +35,32 @@
 
     .line-over {
         text-decoration: line-through;
+    }
+}
+
+.mascot {
+    &__img {
+        width: 100%;
+        &--wrapper {
+            width: 50%;
+            margin: 0 auto;
+        }
+    }
+
+    &__descr-item {
+        > ul {
+            margin-bottom: v.$margin-small;
+        }
+        > p:last-child {
+            margin-bottom: 0;
+        }
+        &:not(:last-of-type) {
+            margin-bottom: v.$margin-middle;
+        }
+    }
+
+    &__box {
+        background-color: v.$yellow-light;
+        margin-top: v.$margin-small;
     }
 }

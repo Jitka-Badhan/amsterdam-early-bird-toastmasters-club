@@ -12,9 +12,11 @@ const menu = (container) => {
                     side.classList.add('hidden');
                 }
 
-            button.addEventListener('mouseover', mouseOver);
-            side.addEventListener('mouseover', mouseOver);
-            wrapper.addEventListener('mouseout', mouseOut);
+            if (!button.classList.contains('active')) {  
+                button.addEventListener('mouseover', mouseOver);
+                side.addEventListener('mouseover', mouseOver);
+                wrapper.addEventListener('mouseout', mouseOut);
+            }
         }
     } );
 }

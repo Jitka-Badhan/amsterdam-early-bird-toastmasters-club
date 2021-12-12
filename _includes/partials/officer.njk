@@ -1,0 +1,26 @@
+<div class="officer">
+    <div class="officer__container">
+        <div class="officer__side officer__side--narrow">
+            <div class="officer__function">{{ officer.function }}</div>
+            <div class="officer__img--wrapper">
+                <img class="officer__img" src="/assets/images/officers/{{ officer.photo }}" alt="{{ officer.name }}'s photo" />
+            </div>
+        </div>
+            
+        <div class="officer__side officer__side--wide">
+            <div class="officer__name">{{ officer.name }}</div>
+            <div class="officer__competencies">
+                <p>You can talk to me about:</p>
+                <ul class="officer__list">
+                    {% for item in officer.talkabout %}
+                        <li class="article__list-item">{{ item }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="officer__email">
+        My email address is <a class="officer__email--bold" href="mailto:{{ officer.email }}">{{ officer.email }}</a>
+    </div>
+</div>
