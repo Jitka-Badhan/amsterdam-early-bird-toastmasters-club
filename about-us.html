@@ -4,6 +4,8 @@ title: About us
 cssFileName: article
 ---
 
+{% import 'partials/button.njk' as b %}
+
 <section class="about">
     <p>We are a Toastmasters club - we meet every other week to practice our public speaking. We are Amsterdam Early Bird - we get together on Saturday mornings. Yet that's not all we are!</p>
     <p>We are proud to combine the dedication to the highest professionality and respect to the proven Toastmaster programs and methods, with the welcoming and supportive togetherness that we, members of the Amsterdam Early Bird Toastmasters club, co-create.</p>
@@ -53,12 +55,16 @@ cssFileName: article
             <p>The Early Bird itself emerges from an original dream or vision that each of its diverse members has when joining the club. The Early Bird spreads its wings, transitions into the light where it changes. It becomes wise and knowledgeable and is able to soar.</p>
         </div>
     </div>
+
+    {{ b.button(url='#', label='Back to top') }}
 </section>
 
 <section id="contests" class="contests">
     <h2>Contests</h2>
     <p>Part of the fun at Toastmasters are the traditional <strong>Speech contests</strong>. We compete in the Humorous, Evaluation, Tall Tales, Table Topics and International speech contests. Club level with club contests. The winners continue competing through the Area, Division and District levels. Winners of the District level International Speech Contest proceed to the region quarterfinal level. Following region quarterfinals, winners advance to the semifinals for a chance to take part in the World Championship of Public Speaking®.</p>
     <p>So if you enjoy healthy and exciting competition - you are in for a treat!</p>
+
+    {{ b.button(url='#', label='Back to top') }}
 </section>
 
 <section id="officers" class="officers">
@@ -67,4 +73,6 @@ cssFileName: article
     {% for officer in officers %}
         {% include 'partials/officer.njk' %}
     {% endfor %}
+
+    {{ b.button(url='#', label='Back to top') }}
 </section>

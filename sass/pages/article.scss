@@ -1,5 +1,6 @@
 @use '../base';
 @use '../components/textbox';
+@use '../components/button';
 @use '../components/instruction';
 @use '../components/officer';
 
@@ -13,9 +14,12 @@
         &:not(:last-child)::after {
             display: block;
             content: '';
-            width: 150px;
-            border-top: 1px solid black;
+            width: 10rem;
+            border-top: 1.5px dashed v.$black;
             margin-top: v.$margin-middle;
+        }
+        &:not(:last-child) > .button:last-child {
+            margin-bottom: -#{v.$margin-middle};
         }
     }
     

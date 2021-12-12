@@ -23,7 +23,7 @@
 
                         {% if inst.img-src %}
                             <div class="instruction__img--wrapper">
-                                <img class="instruction__img" src={{ inst.img-src }} alt="illustrative picture" />
+                                <img class="instruction__img" src="/assets/images/illustrative/{{ inst.img-src }}" alt="illustrative picture" />
                             </div>
                         {% endif %}
 
@@ -66,16 +66,16 @@
         {% endif %}
 
         {% if item.unorderedInstructionsBottom %}
-            <ul class="instruction__ulist">
+            <div class="instruction__ulist--wrapper">
                 {% for it in item.unorderedInstructionsBottom %}
-                    {% if it.mainline %}<p>{{ it.mainLine }}</p>{% endif %}
+                    {% if it.mainLine %}<p>{{ it.mainLine }}</p>{% endif %}
                     <ul class="instruction__ulist">
                         {% for subItem in it.subItems %}
                             <li class="instruction__list-item">{{ subItem }}</li>
                         {% endfor %}
                     </ul>
                 {% endfor %}
-            </ul>
+            </div>
         {% endif %}
 
         {% if item.orderedInstructions %}

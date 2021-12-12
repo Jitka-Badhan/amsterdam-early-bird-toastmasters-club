@@ -1,0 +1,123 @@
+@use '../pages/article.scss';
+@use '../components/role-icon';
+
+@use '../base/variables' as v;
+@use '../base/mixins' as m;
+
+// Page /roles/
+
+.roles {
+    &__list {
+        margin: v.$margin-middle 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    
+        > * {
+            flex: 0 0 calc((100% - 60px) / 6);
+        }
+    }
+
+    &__nav {
+        @include m.flexbox(space-between, true, 11);
+        align-items: flex-start;
+        margin-bottom: v.$margin-middle;
+        height: 100px;
+        > * {
+            flex: 0 0 calc((100% - 20px) / 11);
+        }
+
+        .role-icon {
+            &__label {
+                display: none;
+                margin: 30px -35px;
+            }
+            &:hover,
+            &:focus,
+            &:active {
+                .role-icon__img--wrapper {
+                    transform: scale(1.5);
+                }
+                .role-icon__label {
+                    display: block;
+                }
+                .role-icon__img--active {
+                    transform: scale(1.7);
+                    + .role-icon__label {
+                        display: none;
+                    }
+                }
+            }
+            &__img--active {
+                transform: scale(1.7);
+                border-width: 2px;
+                box-shadow: 1px 1px 15px v.$yellow;
+            }
+        }
+    }
+}
+
+// Page /roles/<role-name>/
+
+.role {
+    > section.role__section {
+        &::after {
+            display: none;
+        }
+    }
+
+    &__motto {
+        font-size: v.$big;
+        font-style: italic;
+        margin-bottom: v.$margin-middle;
+    }
+
+    &__section {
+        > p:last-of-type {
+            margin-bottom: v.$margin-middle;
+        }
+    }
+
+    &__tips {
+        border: 2px dashed v.$black;
+        border-radius: 15px;
+        padding: v.$margin-small;
+        margin-bottom: v.$margin-big;
+        > .role__list {
+            margin-bottom: 0;
+        }
+    }
+
+    .textbox {
+        &:nth-of-type(4n+2) {
+            background-color: v.$red-light;
+        }
+        &:nth-of-type(4n+3) {
+            background-color: v.$yellow-light;
+        }
+        &:nth-of-type(4n+4) {
+            background-color: v.$orange-light;
+        }
+    }
+
+    .instruction {
+        &__divider {
+            font-weight: 600;
+            text-transform: none;
+            margin-bottom: v.$margin-small;
+        }
+        &__ulist--wrapper {
+            > p {
+                margin-bottom: 5px;
+            }
+        }
+        &__olist-item > p {
+            font-weight: 400;
+        }
+    }
+
+    .button {
+        margin-right: auto;
+    }
+}

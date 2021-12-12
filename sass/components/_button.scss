@@ -1,0 +1,18 @@
+@use '../base/variables' as v;
+
+.button {
+    display: block;
+    width: fit-content;
+    max-width: 250px;
+    text-align: center;
+    background-color: v.$black;
+    color: v.$white;
+    padding: 8px 20px 5px;
+    text-decoration: none;
+    margin: v.$margin-middle 0 v.$margin-middle auto;
+    border-radius: 15px;
+    &:hover,
+    &:active {
+        color: v.$yellow;
+    }
+}

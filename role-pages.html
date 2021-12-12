@@ -1,0 +1,84 @@
+---
+title: Club Roles
+pagination:
+  data: roles
+  size: 1
+  alias: role
+permalink: "{{ role.url }}"
+layout: layouts/role.njk
+cssFileName: roles
+---
+
+{% import 'partials/button.njk' as b %}
+
+{% include 'partials/rolesnav.njk' %}
+
+<h1>{{ role.name }}</h1>
+
+<div class="role__motto">{{ role.motto }}</div>
+
+{% for section in role.body %}
+    <section class="role__section">
+        {% if section.heading %}
+            <h2 class="role__subheading">{{ section.heading }}</h2>
+        {% endif %}
+
+        {% for paragraph in section.text %}
+            <p>{{ paragraph }}</p>
+        {% endfor %}
+
+        {% if section.ulist %}
+            <ul class="article__list">
+                {% for item in section.ulist %}
+                    <li class="article__list-item">{{ item }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+
+        {% if section.image %}
+            <figure>
+                <img src="/assets/images/illustrative/{{ section.image.img-src }}" alt="Illustrative picture">
+                <figcaption>{{ section.image.label }}</figcaption>
+            </figure>
+        {% endif %}
+
+        {% if section.instructions %}
+            {% for item in section.instructions %}
+                {% include 'partials/instruction.njk' %}
+            {% endfor %}
+        {% endif %}
+
+        {% if section.textbox %}
+            <div class="textbox role__textbox">
+                {% if section.textbox.heading %}
+                    <h3>{{ section.textbox.heading }}</h3>
+                {% endif %}
+
+                {% for paragraph in section.textbox.text %}
+                    <p>{{ paragraph }}</p>
+                {% endfor %}
+
+                {% if section.textbox.ulist %}
+                    <ul>
+                        {% for item in section.textbox.ulist %}
+                            <li>{{ item }}</li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+            </div>
+        {% endif %}
+    </section>
+{% endfor %}
+
+{% if role.tips %}
+    <div class="role__tips">
+        <h3>Tips for you:</h3>
+        <ul class="role__list">
+            {% for item in role.tips %}
+                <li class="article__list-item">{{ item }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+{% endif %}
+
+{{ b.button(url='/roles/', label='Back to Club Roles page') }}

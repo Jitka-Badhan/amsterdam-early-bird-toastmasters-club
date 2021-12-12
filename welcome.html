@@ -4,6 +4,8 @@ title: Welcome to Amsterdam Early Bird Tostmasters Club
 cssFileName: article
 ---
 
+{% import 'partials/button.njk' as b %}
+
 <section class="welcome__intro">
     <p>Congratulations on becoming a member of the Amsterdam Early Bird Toastmasters Club! We are very happy to have you as a member!</p>
     <p>This website serves to put all relevant information for club members on one place and as a substitute for documents scattered all over. It should not be used as a replacement for easy speak or to reflect any other meeting status - if that is what you search for, see quick links for redirecting.</p>
@@ -32,4 +34,6 @@ cssFileName: article
         <li class="welcome__promise-item">adhere to the guidelines and rules for all Toastmasters education and recognition programs</li>
         <li class="welcome__promise-item">act within Toastmasters' core values of integrity, respect, service and excellence during the conduct of all Toastmasters activities</li>
     </ul>
+
+    {{ b.button(url='#', label='Back to top') }}
 </section>

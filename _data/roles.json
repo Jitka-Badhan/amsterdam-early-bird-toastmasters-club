@@ -1,0 +1,780 @@
+[
+    {
+        "name": "Online Co-host",
+        "img": "online_co-host",
+        "url": "/roles/online-cohost/",
+        "motto": "As a Co-host, you support the Online Host.",
+        "body": [{
+            "text": ["You as will keep an eye on the waiting room and admit people inside"]
+        }]
+    },
+    {
+        "name": "Online Host",
+        "img": "online_host",
+        "url": "/roles/online-host/",
+        "downloads": [
+            {
+                "description": "Template for Zoom meetings (NEW)",
+                "link": "https://drive.google.com/file/d/12TDnj8mKznmoFvtVz00h7CpK_hV97BSy/view"
+            },
+            {
+                "description": "Feedback Form",
+                "link": "https://docs.google.com/forms/d/e/1FAIpQLSeWYuZk0r3sDwKblsU3yOf99YGT04fo62OziBgQGyWHboFLrA/viewform"
+            },
+            {
+                "description": "WebEx meetings template (OLD)",
+                "link": "https://drive.google.com/file/d/1HVuyDllJKO-_fgHakmDUZUiROtUlVP7X/view"
+            }
+        ],
+        "body": [{
+            "text": ["The online host is needed for those times when a meeting has to be hosted online. ", "The online host is responsible for making sure that the meeting can run smoothly from a technical perspective but also from a security perspective."],
+            "instructions": [
+                {
+                    "heading": "Before the meeting checklist",
+                    "unorderedInstructionsTop": [
+                        {
+                            "subItems": ["Ask President/VPE for zoom credentials", "Schedule a meeting that starts at 8.30AM Saturday morning", "Set following Zoom options: (i) Password for meeting  (ii) Enable waiting room", "Share the meeting link to VPM", "Ask VPM for guest list, so that you know whom to allow to join the meeting. We discourage allowing unknown or random people to enter the meeting, from a security point of view.", "From security point of view, to not allow a hacker to enter our meeting, we ask members name themselves correctly in Zoom. Communicate this via whatsapp group or email.", "Prepare feedback form - copy the template from the side box (Note: DO NOT edit original form!)", "Prepare zoom tool briefing (see slides below)"]
+                        }
+                    ]
+                },
+                {
+                    "heading": "Coordinating a dry run",
+                    "divider": "If needed, along with VPE, organize a dry-run to understand how zoom works. This can be done 1 or 2 days before actual meeting. VPE can include Timer and anyone who is new to a role.",
+                    "unorderedInstructionsBottom": [
+                        {
+                            "mainLine": "Things to practice:",
+                            "subItems": ["Timer changing virtual backgrounds", "Disable chat option for everyone to talk to everyone", "Allow screen sharing for all participants", "Creating breakout rooms", "Mute/unmute participants", "Recording meeting", "Sharing your screen and slides for zoom tool overview", "Ask who can be a co-host for backup (co-host will login with same credentials)"]
+                        }
+                    ]
+                },
+                {
+                    "heading": "For the meeting",
+                    "unorderedInstructionsBottom": [
+                        {
+                            "subItems": ["Send meeting link and feedback form in whatsapp group in the morning", "Start meeting at 8.30AM (15 mins before)", "Check that chat option is disabled, sharing option is enabled", "Keep an eye on participants list", "Allow members from waiting room to join the meeting. Know the names of expected guests.", "Encourage everyone to test mic and camera until 8.45 when meeting starts", "At 8.45AM, mute everyone and start the meeting", "Start with zoom overview", "Start meeting recording", "Hand over word to Presiding Officer", "Put Speakers list, Word of day, feedback form in Chat window", "For the rest of the meeting, keep an eye on"]
+                        }
+                    ],
+                    "orderedInstructions": [
+                        {
+                            "mainLine": "Participant list - non speaker should be muted"
+                        },
+                        {
+                            "mainLine": "Chat window"
+                        }
+                    ]
+                },
+                {
+                    "heading": "After the meeting",
+                    "unorderedInstructionsTop": [
+                        {
+                            "subItems": ["Share meeting recording", "Share feedback to individual speakers"]
+                        }
+                    ]
+                }
+            ],
+            "textbox": {
+                "heading": "Meeting - onboarding presentation",
+                "text": ["If the meeting happens on the 1st or 5th Saturday of a month, show a presentation that explains the technical details. (Because new guests are attending and don't know how it works)", "If the meeting is on the 3rd Saturday of a month, make the presentation short and only cover the meeting rules, and speaker line up.", "Download the Template for Zoom meetings from the side box.", "Also make sure to prepare the feedback form and share it before and during the meeting with attendees."]
+            }
+        }]
+    },
+    {
+        "name": "Toastmaster of the Morning",
+        "img": "toastmaster_of_the_morning",
+        "url": "/roles/toastmaster-of-the-morning/",
+        "motto": "You are the meeting manager!",
+        "body": [
+            {
+                "text": ["Congratulations! This is an opportunity for you to showcase your presentation skills. Although you are not making a speech, you are going to be on stage talking for a good amount of time acting as the host and making introductions."],
+                "instructions": [
+                    {
+                        "heading": "2 weeks before the Meeting",
+                        "orderedInstructions": [
+                            {
+                                "mainLine": "Come up with a meeting theme. It can be anything, a colour \"Purple\" or a theme like \"Kindness\" or a quote for example \"An apple a day keeps the doctor away\". It is important to choose a theme that you can work with and incorporate into the morning. Most importantly, have fun with it!"
+                            },
+                            {
+                                "mainLine": "Once you come up with the theme, update the meeting schedule in EasySpeak to add the theme. This should be done at least one week, preferably two, in advance. This gives members something to look forward to, and if possible, although not mandatory, it might give inspiration to the speakers in choosing a theme for their speech. It's also nice if the Table Topics Master can work around your chosen theme."
+                            },
+                            {
+                                "mainLine": "Contact the following members in advance:",
+                                "subItems": ["Speakers: Ask them to fill speech title and details & to get in touch with their evaluator.  Also ask for something interesting which you can use when introducing them (job, family, hobbies, education, why this topic for this audience etc.)", "Grammarian: Ask the grammarian to fill the Word of Day at least one week in advance", "General Evaluator: Ask this member to contact the Evaluators, Timer, Grammarian and Ah counter.", "Timer: Discuss his or her duties. A very important value in our club is that the meeting starts on time and ends on time. During the meeting you want to rely on the timer to time the speeches but also to make sure that the overall meeting keeps within planned timeframe.", "Sergeant at Arms: It's your morning. How would you like the room to be set up? Circle? U-shaped with tables and chairs? There's nothing wrong with keeping the room as usual, but certainly nothing wrong with mixing things up a little. Consider the speeches, the audience, etc. when preparing for your role.", "Table Topic Master: Ask this member to prepare questions based on the theme.", "NOTE: The Toastmaster of the Morning, the Grammarian & the Table Topic Master form the theme-triangle ☘️. So it's important for all of you co-ordinate with each other ☘️ ☘️ ☘️"]
+                            },
+                            {
+                                "mainLine": "Keep an eye of meeting agenda/emails for role cancellations."
+                            },
+                            {
+                                "mainLine": "If a role is unassigned, please contact the VPE."
+                            },
+                            {
+                                "mainLine": "If a role is already assigned, DO NOT change it. Communicate with the VPE for any changes."
+                            },
+                            {
+                                "mainLine": "Prepare remarks which can be used to bridge the gaps between program segments. You may never use them, but you should be prepared to avoid possibly awkward periods of silence."
+                            },
+                            {
+                                "mainLine": "Remember the key for a successful meeting is communication, communication & good communication 😊"
+                            }
+                        ]
+                    }, 
+                    {
+                        "heading": "Before the meeting",
+                        "instructions": [
+                            {
+                                "paragraphs": ["Arrive to the venue at least by 8:15 am, to start preparing the white board for the meeting. On the white board you write the Theme of the day, the Word of the day, List of Speakers and Evaluators. (For sample images from past meetings, scroll a little below)"]
+                            },
+                            {
+                                "paragraphs": ["Make sure you have your seat saved so you can easily get up and down and reach the stage without any problems."]
+                            },
+                            {
+                                "paragraphs": ["Have the agenda order printed out with you. The meeting can go smoothly when you can see what is next, without having to think about it on stage.", "(Print the detailed meeting agenda of Ams Early Bird Toastmasters Club at the top corner of the meeting schedule)"]
+                            },
+                            {
+                                "paragraphs": ["Talk with the President before the meeting, to know about time constraints for the Club Business."]
+                            },
+                            {
+                                "paragraphs": ["Have the agenda order printed out with you. The meeting can go smoothly when you can see what is next, without having to think about it on stage."]
+                            },
+                            {
+                                "paragraphs": ["Be prepared for last minute changes. You can work of the copy of the agenda to for yourself to work off of. All members with roles, especially the speakers, should contact you directly should something arise and they are unable to attend. It is then your responsibility to find other members to pitch in."]
+                            },
+                            {
+                                "paragraphs": ["Don’t panic! Should a speaker let you know at the last minute that they are unable to attend, this is the opportunity to call upon the “reserved speaker”. This role in the agenda is just that, a speaker who is reserved for situations such as this."]
+                            }
+                        ]
+                    }, {
+                        "heading": "During the meeting",
+                        "instructions": [
+                            {
+                                "paragraphs": ["Preside with sincerity, energy and decisiveness. Take your audience on a pleasant journey and make them feel that all is going well. Always lead the applause before and after each presenter. After your introduction of another presenter, remain standing near the lectern until you have shaken hands - signifying your hand over of control of the meeting - then be seated."]
+                            },
+                            {
+                                "paragraphs": ["Start by introducing the theme of the day and speak about it."]
+                            },
+                            {
+                                "paragraphs": ["Call the General Evaluator to introduce the evaluation team."]
+                            },
+                            {
+                                "paragraphs": ["This is followed by speeches and then evaluations."]
+                            },
+                            {
+                                "paragraphs": ["When you introduce every speaker, it is advisable to mention the following:", "i) Pathways name ii) Motive of the speech iii) Title of the speech", "You can find this in Easy speak and down the agenda from there."]
+                            },
+                            {
+                                "paragraphs": ["You can use your own style to introduce the speakers. You could contact them in advance to learn what their speech is going to be. Or you can talk about your theme and then weave the speakers and evaluators in between."]
+                            },
+                            {
+                                "paragraphs": ["Remember to call out for 1 min silence for evaluations!", "It is easy to forget the 1 min silence, so it is advisable to write down in the agenda by hand or highlight the item if you printed detailed agenda."]
+                            },
+                            {
+                                "paragraphs": ["After the speeches and evaluations, call the Table Topic Master of the Day."]
+                            },
+                            {
+                                "paragraphs": ["After the Table topic Master finishes, you go upon stage again and invite Evaluating Team and the General Evaluator (it is advisable to agree upfront what should be the order)"]
+                            },
+                            {
+                                "paragraphs": ["After evaluations put some closing remarks."]
+                            },
+                            {
+                                "paragraphs": ["After that you hand the meeting back to the President."]
+                            },
+                            {
+                                "paragraphs": ["Always remember to shake hands when you go up on stage or call someone on stage."]
+                            }
+                        ]
+                    }
+                ],
+                "textbox": {
+                    "heading": "Timing",
+                    "text": ["Besides introductions and moderating the meeting, one of the most important aspect of being the Toastmaster of the Morning is working within the time we have for our scheduled meetings. That is sufficient time for prepared speeches, evaluations, Table Topics, meeting evaluations and Club Business. If you are presiding over a meeting with Table Topics, it is your responsibility to make sure that the Table Topics are delivered in the right amount of time. Remember, 1 – 2 minutes for someone delivering their Table Topics and enough time for the introduction, 1 minute. You work with the Table Topic Master and the Timer to make sure you leave enough time for the general evaluation and Club Business."]
+                }
+            },
+            {
+                "textbox": {
+                    "heading": "Handing the meeting over to the Presiding Officer",
+                    "text": ["Normally, the hand over to the Presiding Officer is the Club President. Before doing that, thank the speakers, the General Evaluator, the Table Topics Master and supporting roles.Close your time as the Toastmaster of the Morning on a high note!"]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Timer",
+        "img": "timer",
+        "url": "/roles/timer/",
+        "motto": "You are our Clock!",
+        "downloads": [
+            {
+                "description": "Zoom virtual backgrounds - article",
+                "link": "https://support.zoom.us/hc/en-us/articles/210707503-Virtual-Background"
+            },
+            {
+                "description": "Download the Zoom virtual backgrounds",
+                "link": "https://www.toastmasters.org/resources/Timer%20Zoom%20Backgrounds"
+            },
+            {
+                "description": "Example of clock image background",
+                "link": "https://drive.google.com/file/d/1asetevf90HcWiDoNT_3VTvMge82EIXq0/view?usp=sharing"
+            }
+        ],
+        "body": [
+            {
+                "text": ["As the Timer you are important in making sure meetings finish on time ⏳"],
+                "instructions": [
+                    {
+                        "heading": "Before the meeting",
+                        "unorderedInstructionsTop": [
+                            {
+                                "subItems": ["Review the list of speakers and their time limits from Easy speak", "Remember, each speaker has a different assignment, so timings differ. But Easy speak reflects that.", "Bring your notebook to the meeting.", "Contact the President or Toastmaster of the morning beforehand, to know any time constraints."]
+                            }
+                        ]
+                    },
+                    {
+                        "heading": "Online sessions - preparation",
+                        "instructions": [
+                            {
+                                "paragraphs": ["Our club uses zoom as the tool for conducting online meetings"]
+                            },
+                            {
+                                "paragraphs": ["Timer in an online meeting will be using Zoom's virtual background feature for displaying colours. Please familiarise yourself with it (see the link in a side box) and download the backgrounds."]
+                            },
+                            {
+                                "paragraphs": ["Download also a neutral clock image, that can be used as virtual background when the speech starts or other times. This image is useful for speakers to identify who the timer is from the list of zoom users."]
+                            },
+                            {
+                                "paragraphs": ["Keep a bell ready with you to play. It can be a real bell or a spoon and metal bowl that can do the effect."]
+                            },
+                            {
+                                "paragraphs": ["IMPORTANT NOTE: For virtual background to work, you need to \"Start video\" and keep the camera on; but cover the camera with a piece of paper or a webcam cover. This is necessary to clearly show your background image."]
+                            },
+                            {
+                                "paragraphs": ["Test the virtual background before of the meeting day."]
+                            }
+                        ]
+                    },
+                    {
+                        "heading": "At the online session",
+                        "instructions": [
+                            {
+                                "paragraphs": ["Join the online meeting at 8.30 when it opens"]
+                            },
+                            {
+                                "paragraphs": ["Start with a neutral clock picture ⏰ as a virtual background."]
+                            },
+                            {
+                                "paragraphs": ["Change the background to different colours according to time taken by each participant."],
+                                "ulist": ["GREEN 📗picture: When member finishes minimum time", "YELLOW 📒 picture: Mid way to reaching maximum time", "RED 🔴 picture: After completing maximum time", "BELL 🛎️ : 30 seconds after RED card (remember to unmute, bell and then mute back)", "Remember to change back to neutral clock picture after the member has finished ✔️"]
+                            },
+                            {
+                                "paragraphs": ["Since it is an online meeting, there may be a mic and video check before the actual speech."]
+                            },
+                            {
+                                "paragraphs": ["Start the timer only after the Toastmaster of the morning finishes introduction and when the speaker speaks THE FIRST WORD."]
+                            }
+                        ]
+                    },
+                    {
+                        "heading": "Regular meetings",
+                        "instructions": [
+                            {
+                                "paragraphs": ["Once you arrive at the meeting, take a seat at our central table which is very visible to the speaker."]
+                            },
+                            {
+                                "paragraphs": ["Make sure the Time colour book, Stopwatch and Timer bell are on desk. (Contact Sergeant At Arms for this)"]
+                            },
+                            {
+                                "paragraphs": ["Clock the time using the Club's Stopwatch or your own mobile's Stopwatch facility"]
+                            },
+                            {
+                                "paragraphs": ["Our Amsterdam Early Birds gatherings finish at 10.15 AM (usually)."]
+                            },
+                            {
+                                "paragraphs": ["Make sure we finish it on time. This means, if the President wants to make club announcements at the end of the meeting, make sure Table Topics finish at least 10 mins before the end time. If the President has already made club announcements, then you can allow more Table Topics according to time."]
+                            },
+                            {
+                                "paragraphs": ["When recording timing, you will show:"],
+                                "ulist": ["GREEN📗card: When member finishes minimum time", "YELLOW 📒card: Mid way to reaching maximum time", "RED 🔴card: After completing maximum time", "BELL 🛎️: 30 seconds after RED card"]
+                            },
+                            {
+                                "paragraphs": ["When showing the card, keep the current card always visible to the speaker, so he/she can always glance at which colour they are currently at. Be discreet (don't wave the card!) in order not to distract the audience."]
+                            }
+                        ]
+                    }
+                ],
+                "textbox": {
+                    "heading": "Common points to remember",
+                    "text": ["You will record the times for the following people (green ~ yellow ~ red):"],
+                    "olist": ["Speakers (varies, usually 5 ~ 6 ~ 7) - check the actual speech time from easy-speak project timing", "Evaluators (2 ~ 2.5 ~ 3)", "Table Topic Participants (1 ~ 1.5 ~ 2)"],
+                    "ulist": ["After the bell 🛎️ is rung, the member needs to stop talking.", "Don't forget to note 1 min silence for evaluation after every prepared speech!", "If we are running late, don't be afraid to call out that TIME IS UP 🛑", "When the General Evaluator calls you, give a brief report of the time for everyone that you noted."]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Ah Counter",
+        "img": "ah_counter",
+        "url": "/roles/ah-counter/",
+        "motto": "You are our Observer",
+        "downloads": [
+            {
+                "description": "Ah Counter definition by Toastmasters Int.",
+                "link": "https://www.toastmasters.org/membership/club-meeting-roles/ah-counter"
+            }
+        ],
+        "body": [
+            {
+                "instructions": [
+                    {
+                        "heading": "During the meeting",
+                        "instructions": [
+                            {
+                                "paragraphs": ["Bring your own notebook/paper and make a note of all the crutch words that the member on stage uses."]
+                            },
+                            {
+                                "paragraphs": ["You will make a report for everyone, up until you are called by the General evaluator to give a report."]
+                            },
+                            {
+                                "paragraphs": ["While giving a report, you may use different formats such as giving exact count of every word used. E.g: 35 \"Ahs\", 12 \"So\", 10 \"like\". Or you could provide a general report as \"more than 30 Ahs, a little ums\" etc. It's better to highlight the main crutch word used by the person."]
+                            }
+                        ]
+                    }
+                ],
+                "tips": ["Avoid using words like \"You were very bad - you used 56 ahs\"", "Read the official documentation of the role on link mentioned in the side box"]
+            }
+        ]
+    },
+    {
+        "name": "Grammarian",
+        "img": "grammarian",
+        "url": "/roles/grammarian/",
+        "motto": "You are our Wordsmith!",
+        "body": [
+            {
+                "instructions": [
+                    {
+                        "heading": "A Week before the meeting",
+                        "instructions": [
+                            {
+                                "paragraphs": ["Choose a Word of the Day for the meeting."]
+                            },
+                            {
+                                "paragraphs": ["It's advisable to choose something connected to the Theme of the Day (not necessary)", "If Theme is unknown, feel free to poke your Toastmaster of the morning 👋", "(The Toastmaster of the Morning, the Grammarian & the Table Topic Master form the theme-triangle ☘️. So it's important for all of you co-ordinate with each other ☘️ ☘️ ☘️)"]
+                            },
+                            {
+                                "paragraphs": ["Choose a word that is uncommon, yet not difficult to use."]
+                            },
+                            {
+                                "paragraphs": ["Optionally you can also choose a word that easy-speak suggests when you go to add a word."]
+                            },
+                            {
+                                "paragraphs": ["Update Easy-Speak with the word for the meeting."]
+                            },
+                            {
+                                "paragraphs": ["It's a nice gesture to also send a message to speakers/AEBT group informing about the Word of day."]
+                            }
+                        ]
+                    },
+                    {
+                        "heading": "During the meeting",
+                        "unorderedInstructionsTop": [
+                            {
+                                "subItems": ["Make sure the Word of the Day is written on the board by Toastmaster of the Morning"]
+                            }
+                        ],
+                        "divider": "(Additional bonus if you also write pronunciation text)",
+                        "unorderedInstructionsBottom": [
+                            {
+                                "subItems": ["When the General Evaluator calls the team, go up to introduce the Word", "Spell out the word clearly and explain the meaning in a slow pace", "Give at least 2 examples of using the word", "Keep an ear out during the whole meeting (even before being called on stage), to the use of English language", "Count usages of Word of the day", "You will give a report when the general evaluator calls you on stage.", "Report of both good usage of grammar and things to be improved with the corrected version", "Special call out if a person uses the Word of day", "Thank everyone"]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "heading": "How do I add a Word of the Day",
+                "text": ["Adding a word of the day is very simple.", "Be aware that you can only pick a word of the day, if you have accepted the role as grammarian. Simply navigate to the meeting in which you will perform the grammarian role.", "Once you are on the meeting agenda, you will notice that the word of the day is shown in red link with a plus icon in front of the label."],
+                "image": {
+                    "img-src": "grammarian_illpic1.png"
+                }
+            },
+            {
+                "text": ["There are two ways to pick a WOD, either freeform, or by picking a word from a list."],
+                "gallery": [
+                    {
+                        "img-src": "grammarian_illpic2.png",
+                        "label": "FREEFORM: Click on the plus icon. Now a pop up window will open. and you can fill in the WOD in the text field."
+                    }, 
+                    {
+                        "img-src": "grammarian_illpic3.png",
+                        "label": "PICK FROM A LIST: Should you need any inspiration, there is also an option to help you select a good word, alternatively you can use other online resources such as thesaurus.com."
+                    }
+                ]
+            }
+        ],
+        "tips": ["As a general rule of thumb, pick a word that is related to the theme of the day. If the theme for the upcoming meeting is e.g. \"Freedom\" you could pick a word such as \"unhampered\" or \"boundary\".", "It's good to pick word that people can easily use in multiple ways. It's even better, if it's a word that is not used so often. This way the audience learns something new.", "When you introduce your word of the day, explain it's meaning to the audience, along with providing some examples, so they learn how the word is used in different contexts. In some cases it's also a good idea mentioning antonyms and synonyms.", "When you introduce your role during the meeting, encourage speakers, evaluators, performing officers, and table topic participants to use the word of the day by highlighting the benefits of thinking about ways to use a new word in a new context and increasing their vocabulary."]
+    },
+    {
+        "name": "Table Topics Master",
+        "img": "table_topic_master",
+        "url": "/roles/table-topic-master/",
+        "motto": "You make us think on our feet!",
+        "downloads": [
+            {
+                "description": "How to run table topics?",
+                "link": "http://tmvision.org/clubs/meeting-roles/run-table-topics/"
+            },
+            {
+                "description": "Table Topics Master Definition",
+                "link": "https://toastmastersd17.org/resource/table-topics-master/"
+            }
+        ],
+        "body": [
+            {
+                "instructions": [
+                    {
+                        "heading": "Before the meeting",
+                        "instructions": [
+                            {
+                                "paragraphs": ["Find out the Theme or Word of day, to base your questions on", "NOTE: The Toastmaster of the Morning, the Grammarian & the Table Topic Master form the theme-triangle ☘️. So it's important for all of you co-ordinate with each other  ☘️ ☘️ ☘️"]
+                            },
+                            {
+                                "paragraphs": ["This is not a rule, you may ask any type of question."]
+                            },
+                            {
+                                "paragraphs": ["Make a list of 8 questions at least! If a speaker cancels out last moment, Table topic session can be extended."]
+                            },
+                            {
+                                "paragraphs": ["Get the list of members interested in impromptu speaking from the VPE or VPPR."]
+                            },
+                            {
+                                "paragraphs": ["Get to know the names of guests that come to the meeting."]
+                            }
+                        ]
+                    },
+                    {
+                        "heading": "During table topic session",
+                        "instructions": [
+                            {
+                                "paragraphs": ["Introduce yourself and state the rules of Table topic. Rules are:"],
+                                "ulist": ["You will ask a question and then invite someone to talk", "A guest has the right to decline; Member cannot decline", "Important to state time limit ⏳: Minimum 1 minute, Maximum 2 minutes."]
+                            },
+                            {
+                                "paragraphs": ["As stated above, please first state the question, pause for a moment and then call a person on stage."]
+                            },
+                            {
+                                "paragraphs": ["It's advisable to not call a guest for the first question, so that they can see how it goes and warm up."]
+                            },
+                            {
+                                "paragraphs": ["After every question, check with the Timer if you have time for the next question."]
+                            },
+                            {
+                                "paragraphs": ["After the last question, thank everyone and hand the word back to the Toastmaster."]
+                            },
+                            {
+                                "paragraphs": ["Remember to shake hands 🤝 when i) a person comes on stage and ii) when a person finishes."]
+                            },
+                            {
+                                "paragraphs": ["If you are not seating close to the stage, you may stand on the side, so that hand-overs between you and the speakers are brief."]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Speaker",
+        "img": "speaker",
+        "url": "/roles/speaker/",
+        "motto": "You are brave...",
+        "body": [
+            {
+                "instructions": [
+                    {
+                        "heading": "Before the meeting",
+                        "instructions": [
+                            {
+                                "paragraphs": ["Check the meeting agenda and contact your VPE if an evaluator is not assigned."]
+                            },
+                            {
+                                "paragraphs": ["On easy speak, update your speech title, along with notes. Refer this."]
+                            },
+                            {
+                                "paragraphs": ["Get in touch with the evaluator, to discuss what area you want to focus on."]
+                            },
+                            {
+                                "paragraphs": ["Print-out the evaluation form, if you prefer to receive your written feedback immediately after the meeting."]
+                            },
+                            {
+                                "paragraphs": ["Get in touch with the Sergeant At Arms if you want extra things like flipboard, projector, table, chair etc."]
+                            },
+                            {
+                                "paragraphs": ["NOTE: If you use the projector: it's your responsibility to come early and set it up in the room."]
+                            },
+                            {
+                                "paragraphs": ["Prepare and practice your speech. Be aware of your speech time limits."]
+                            },
+                            {
+                                "paragraphs": ["Bonus: if you use the word of the day in your speech."]
+                            }
+                        ]
+                    },
+                    {
+                        "heading": "During the meeting",
+                        "instructions": [
+                            {
+                                "paragraphs": ["Congrats on signing up!"]
+                            },
+                            {
+                                "paragraphs": ["If you go beyond the time limit and the Timer rings the bell, please finish off your speech immediately. Do not continue further."]
+                            },
+                            {
+                                "paragraphs": ["Remember to shake hands 🤝 of the Toastmaster before and after your speech."]
+                            }
+                        ]
+                    },
+                    {
+                        "heading": "After the meeting",
+                        "divider": "2 important things:",
+                        "orderedInstructions": [
+                            {
+                                "mainLine": "Update Pathways after your speech is completed.",
+                                "subItems": ["Read Mark Your Project Complete in Pathways for more info."]
+                            },
+                            {
+                                "mainLine": "Request feedback from your evaluator in Pathways.",
+                                "subItems": ["Read How to Request Feedback in Pathways for more info."]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "tips": ["VIDEO - If you want someone to take a video of your speech, communicate with them beforehand."]
+    },
+    {
+        "name": "General Evaluator",
+        "img": "general_evaluator",
+        "url": "/roles/general-evaluator/",
+        "motto": "Evaluator of Everything",
+        "downloads": [
+            {
+                "description": "Feedback form",
+                "link": "https://drive.google.com/file/d/11UD693UHUtF4On1-mtvRR4qwP7W_6g6_/view"
+            },
+            {
+                "description": "General Evaluator by Toastmasters Int.",
+                "link": "https://www.toastmasters.org/membership/club-meeting-roles/general-evaluator"
+            }
+        ],
+        "body": [
+            {
+                "instructions": [
+                    {
+                        "heading": "Before the meeting (at least 1 week)",
+                        "instructions": [
+                            {
+                                "paragraphs": ["Get in touch with the following members:"],
+                                "olist": ["Evaluators of prepared speech", "Ah Counter", "Timer"]
+                            },
+                            {
+                                "paragraphs": ["Ask them if they are prepared for the role for the next meeting"]
+                            },
+                            {
+                                "paragraphs": ["Note down when the Theme of Day and Word of Day is updated on Easy-Speak"]
+                            },
+                            {
+                                "paragraphs": ["Download Feedback form - see the link in the side box", "-> Print this and fill this during the meeting to handover to members."]
+                            }
+                        ]
+                    },
+                    {
+                        "heading": "During the meeting",
+                        "instructions": [
+                            {
+                                "paragraphs": ["When the Toastmaster calls you on stage, you will call the evaluation team on stage, which are the following 3:"],
+                                "ulist": ["Ah Counter", "Timer", "Grammarian"]
+                            },
+                            {
+                                "paragraphs": ["Ask each of the 3 to introduce their roles."]
+                            },
+                            {
+                                "paragraphs": ["After they finish and go back, you can state your role (read about it in the article \"General Evaluator by ToastmastersInt.\" - see the link in the side box - and also download the handy checklist)."]
+                            },
+                            {
+                                "paragraphs": ["At the end of the meeting, give remarks on the following:"],
+                                "ulist": ["Toastmaster of the morning/Theme", "Evaluators of prepared speeches", "Table topic session", "How did we do on time aspect 🕙", "Any other remarks"]
+                            },
+                            {
+                                "paragraphs": ["Close and give the word back to the Toastmaster of the morning 🤝"]
+                            }
+                        ]
+                    }
+                ] 
+            }
+        ]
+    },
+    {
+        "name": "Evaluator",
+        "img": "evaluator",
+        "url": "/roles/evaluator/",
+        "motto": "You help us grow!",
+        "downloads": [
+            {
+                "description": "Tutorial about How to Evaluate - after login to Pathways",
+                "link": "https://www.google.com/url?q=https%3A%2F%2Ftoastmasters.csod.com%2FLMS%2FLoDetails%2FDetailsLo.aspx%3FloId%3D06e1badd-5876-41e7-98c0-215a0bf7a921&sa=D&sntz=1&usg=AFQjCNHfPH0DfRY4GroPW_5G4M7A3vdDAw"
+            },
+            {
+                "description": "Evaluation Form - after login to Pathways",
+                "link": "https://toastmasters.csod.com/catalog/CustomPage.aspx?id=20000486"
+            },
+            {
+                "description": "Pdf: Effective Evaluation Manual",
+                "link": "https://toastmasterscdn.azureedge.net/medias/files/department-documents/education-documents/202-effective-evaluation.pdf"
+            },
+            {
+                "description": "Video: Evaluation and Feedback",
+                "link": "https://www.youtube.com/watch?v=hINv4bLZiWc&t=3s&ab_channel=%E0%B8%AA%E0%B8%A1%E0%B8%B2%E0%B8%99-Samarn%E0%B9%80%E0%B8%8B%E0%B8%B5%E0%B8%A2%E0%B8%AA%E0%B8%81%E0%B8%B8%E0%B8%A5-Siasakul"
+            },
+            {
+                "description": "Article: Making the most of evaluations",
+                "link": "https://www.toastmasters.org/magazine/magazine-issues/2019/aug/making-the-most-of-evaluations"
+            },
+            {
+                "description": "Article: Meaningful evaluation",
+                "link": "https://www.toastmasters.org/magazine/magazine-issues/2019/apr/meaningful-evaluation"
+            },
+            {
+                "description": "Article: A Recipe for the Evaluation Sandwich",
+                "link": "https://www.toastmasters.org/magazine/magazine-issues/2018/nov2018/29-toastmasters-toolbox"
+            },
+            {
+                "description": "Article: The Toastmaster Whisperer",
+                "link": "https://www.toastmasters.org/magazine/magazine-issues/2017/jan2017/whisperer"
+            }
+        ],
+        "body": [
+            {
+                "text": ["An essential part of the Toastmasters experience is learning how to give and receive constructive feedback. Evaluations are vital to your growth and help you improve and reflect.", "Scroll through the below list of images to know more about this role:"],
+                "gallery": [
+                    {
+                        "img-src": "evaluator_car1.png"
+                    }, 
+                    {
+                        "img-src": "evaluator_car2.png"
+                    },
+                    {
+                        "img-src": "evaluator_car3.png"
+                    }, 
+                    {
+                        "img-src": "evaluator_car4.png"
+                    },
+                    {
+                        "img-src": "evaluator_car5.png"
+                    }, 
+                    {
+                        "img-src": "evaluator_car6.png"
+                    },
+                    {
+                        "img-src": "evaluator_car7.png"
+                    }
+                ],
+                "instructions": [
+                    {
+                        "heading": "How to evaluate",
+                        "instructions": [
+                            {
+                                "paragraphs": ["Login to Pathways Basecamp"]
+                            },
+                            {
+                                "paragraphs": ["Check the tutorial How to Evaluate - see the link in the side box"],
+                                "img-src": "illustrative/evaluator_illpic1.png"
+                            },
+                            {
+                                "paragraphs": ["NOTE: Link will not work if click before logging into Pathways Basecamp"]
+                            }
+                        ]
+                    },
+                    {
+                        "heading": "Before the meeting",
+                        "instructions": [
+                            {
+                                "paragraphs": ["Get in touch with your speaker and find out what areas the speaker wants to improve on."]
+                            },
+                            {
+                                "paragraphs": ["Read up what Pathways and which speech number the speaker is giving.", "For example, the following in the meeting agenda gives purpose of the speech:"],
+                                "img-src": "illustrative/evaluator_illpic2"
+                            },
+                            {
+                                "paragraphs": ["Do your evaluation keeping the above in mind."]
+                            },
+                            {
+                                "paragraphs": ["Download the evaluation form from Pathways - see link in the side box."]
+                            },
+                            {
+                                "paragraphs": ["Study the form to see what criteria needs to be evaluated."]
+                            }
+                        ]
+                    },
+                    {
+                        "heading": "During the meeting",
+                        "instructions": [
+                            {
+                                "paragraphs": ["After the prepared speeches, you will be called by the Toastmaster of the morning to provide your evaluation."]
+                            },
+                            {
+                                "paragraphs": ["You have 2 to 3 mins to speak."]
+                            },
+                            {
+                                "paragraphs": ["Provide your observations and constructive feedback verbally."]
+                            }
+                        ]
+                    },
+                    {
+                        "heading": "After the meeting",
+                        "instructions": [
+                            {
+                                "paragraphs": ["Provide your feedback to the speaker in Pathways. Read How to Provide Feedback in Pathways for more info - see the link in the side box."]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Meet & Greet",
+        "img": "meet_and_greet",
+        "url": "/roles/meet-and-greet/",
+        "motto": "You are the welcoming face of the club this morning",
+        "body": [
+            {
+                "instructions": [
+                    {
+                        "heading": "Before the meeting",
+                        "instructions": [
+                            {
+                                "paragraphs": ["Ask the VPM for the list of expected guests."]
+                            }
+                        ]
+                    },
+                    {
+                        "heading": "On the morning of the meeting",
+                        "unorderedInstructionsTop": [
+                            {
+                                "subItems": ["Please be at the venue no later than 8.15 the day you are assigned with the \"Meet & Greet\" role", "Since guests start arriving at 8.15, you need to be there to greet them.", "Position yourself next to the door behind the table with the badges - this is your spot before the meeting!", "Put on your best smile :-)", "Greet and shake hands as the members and guests arrive", "For the members: help them find their name badges", "For first time guests: Make sure to have each guest sign a GDPR form (unless they did that already last time they visited)", "Introduce each guest to a member.", "Ask the member to sit next to the guest, to make sure no guest will sit alone, and to balance the distribution of guests in the room a bit.", "Please also invite guests to join our club later at Gelderlandplein.", "Please leave some seats empty near the door for late comers.", "For our records: Please keep track which guests showed up and let me know afterwards.", "For our records: Please make it so we get the signed copies of the GDPR forms and hand them to the VPM or the secretary after the meeting.", "NOTE: If you are the only Meet & Greet person pass the guests on to another member, not to create a \"Traffic Jam\" at the door, if there are more of you, agree the split between you."]
+                            }
+                        ]
+                    },
+                    {
+                        "heading": "Talking to the guests",
+                        "unorderedInstructionsTop": [
+                            {
+                                "subItems": ["This is your chance to practice Networking skills.", "Ask them why they are here, how did they hear about Amsterdam Early Bird Toastmasters Club, and generally get to know them.", "Answer questions about the club and toastmasters.", "Explain the agenda and general structure of the meeting.", "Do mention to guests to put their phone on silent mode.", "Point to VPM / our email address for any questions regarding membership."]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

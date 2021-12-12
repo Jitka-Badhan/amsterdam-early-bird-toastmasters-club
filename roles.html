@@ -1,7 +1,21 @@
 ---
 layout: layouts/article.njk
 title: Roles Definition
-cssFileName: article
+cssFileName: roles
 ---
 
-<p>Zde bude výčet text</p>
+<section class="roles__intro">
+    <h2>Club Roles</h2>
+    
+    <p>A successful club meeting requires good participation. There are several roles to be fulfilled. As a&nbsp;member of the toastmasters club, you are required to take a role when called upon. That is the toastmaster's promise. Frequent declining of meeting roles or last minute cancellation will earn you bad karma points.</p>
+    <p>Read <a href="/starter-kit/#easy-speak">here</a> on how to sign up for roles.</p>
+    <p>Are you assigned a role and you don't know what you should be doing? This is the right place. The role definitions are mostly standard, but it is written from Amsterdam Early Birds' perspective.</p>
+    
+    <div class="roles__list">
+        {% for r in roles %}
+            {% include 'partials/roleicon.njk' %}
+        {% endfor %}
+    </div>
+    
+    <p>You can also read other's roles and inform them if you see something was not done accordingly in&nbsp;the role's capacity. This is not to point fingers, but you are also providing an evaluation. Share your learnings.</p>
+</section>

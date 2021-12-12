@@ -1,0 +1,37 @@
+@use '../base/variables' as v;
+
+.role-icon {
+    text-decoration: none;
+    color: v.$black;
+    font-weight: 600;
+    text-align: center;
+    &__img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        &--wrapper {
+            padding: 7px;
+            aspect-ratio: 1 / 1;
+            overflow: hidden;
+            border: 1.5px solid v.$blue-light;
+            border-radius: 50%;
+            box-shadow: 1px 1px 5px v.$blue-light;
+            margin-bottom: 10px;
+            background-color: #fff;
+        }
+    }
+
+    &__label {
+        line-height: 1.1;
+    }
+
+    &:hover,
+    &:focus,
+    &:active {
+        color: v.$blue;
+        .role-icon__img--wrapper {
+            border-width: 2px;
+            box-shadow: 1px 1px 15px v.$yellow-light;
+        }
+    }
+}
