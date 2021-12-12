@@ -358,9 +358,11 @@ main {
   margin-bottom: 0;
 }
 .instruction__divider {
-  margin: 15px 0 calc(15px - 10px);
-  font-weight: bold;
-  text-transform: uppercase;
+  margin: 15px 0 15px;
+  font-weight: 600;
+}
+.instruction__divider:first-child {
+  margin-top: 0;
 }
 .instruction__olist ul, .instruction__ulist ul {
   list-style-type: disc;
@@ -668,11 +670,6 @@ main {
 }
 .role .textbox:nth-of-type(4n+4) {
   background-color: #fbcdb6;
-}
-.role .instruction__divider {
-  font-weight: 600;
-  text-transform: none;
-  margin-bottom: 15px;
 }
 .role .instruction__ulist--wrapper > p {
   margin-bottom: 5px;

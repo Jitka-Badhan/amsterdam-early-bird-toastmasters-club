@@ -102,11 +102,6 @@
     }
 
     .instruction {
-        &__divider {
-            font-weight: 600;
-            text-transform: none;
-            margin-bottom: v.$margin-small;
-        }
         &__ulist--wrapper {
             > p {
                 margin-bottom: 5px;

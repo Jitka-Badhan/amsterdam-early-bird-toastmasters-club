@@ -58,9 +58,11 @@
     }
 
     &__divider {
-        margin: v.$margin-small 0 calc(#{v.$margin-small} - 10px);
-        font-weight: bold;
-        text-transform: uppercase;
+        margin: v.$margin-small 0 v.$margin-small;
+        font-weight: 600;
+        &:first-child {
+            margin-top: 0;
+        }
     }
 
     &__olist, &__ulist {

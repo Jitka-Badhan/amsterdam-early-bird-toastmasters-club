@@ -1,0 +1,111 @@
+@use 'sass:color' as c;
+
+@use '../base';
+@use '../base/variables' as v;
+
+@mixin position($h, $v) {
+    > span {
+        position: absolute;
+        #{$h}: 45px;
+        #{$v}: 35px;
+        width: calc(100% - 20vmin);
+    }
+}
+
+.hp-main > h1 {
+    text-align: center;
+}
+
+.hp {
+    &__hero {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+            "welcome about"
+            "starter roles"
+        ;
+
+        position: relative;
+        width: 55vw;
+        height: 55vh;
+        border-radius: 50px;
+        overflow: hidden;
+        margin: v.$margin-big auto;
+        box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.4);
+
+        .welcome {
+            grid-area: welcome;
+            background-color: v.$red;
+            @include position(left, top);
+            &:hover,
+            &:focus,
+            &:active {
+                background-color: c.adjust(v.$red, $lightness: -2%);
+            }
+            
+        }
+
+        .roles {
+            grid-area: roles;
+            background-color: c.adjust(v.$yellow, $lightness: -18%);
+            text-align: right;
+            @include position(right, bottom);
+            &:hover,
+            &:focus,
+            &:active {
+                background-color: c.adjust(v.$yellow, $lightness: -20%);
+            }
+        }
+
+        .starter {
+            grid-area: starter;
+            background-color: v.$orange;
+            @include position(left, bottom);
+            &:hover,
+            &:focus,
+            &:active {
+                background-color: c.adjust(v.$orange, $lightness: -2%);
+            }
+        }
+
+        .about {
+            grid-area: about;
+            background-color: v.$blue;
+            text-align: right;
+            @include position(right, top);
+            &:hover,
+            &:focus,
+            &:active {
+                background-color: c.adjust(v.$blue, $lightness: -2%);
+            }
+        }
+    }
+
+    &__mascot {
+        position: absolute;
+        top: calc(50% - 20vmin);
+        left: calc(50% - 20vmin);
+        width: 40vmin;
+        height: 40vmin;
+        background: v.$white;
+        border-radius: 50%;
+        > img {
+            width: 100%;
+            aspect-ratio: 1 / 1;
+            transform: scale(1.05);
+        }
+    }
+
+    &__link {
+        text-decoration: none;
+        position: relative;
+        transition: background-color 400ms;
+        > span {
+            color: v.$white;
+            text-transform: uppercase;
+            font-size: v.$extra;
+            font-family: v.$font-heading;
+        }
+    }
+}

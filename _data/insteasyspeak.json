@@ -9,7 +9,7 @@
                 "paragraphs": ["Note - this website is not mobile web friendly; best viewed on computer/tablet."]
             },
             {
-                "paragraphs": ["Log in with your username  that you received in a separate email from our club.","Note:- Do NOT use your email for login."]
+                "paragraphs": ["Log in with your username  that you received in a separate email from our club.","Note: do NOT use your email for login."]
             },
             {
                 "paragraphs": ["If you have not received the email, please contact the Vice President of Membership or President (check officers here)"]
@@ -66,10 +66,7 @@
                 "subItems": ["Click on Request for Speech to request a speech"] 
             },
             {
-                "subItems": [""]
-            },
-            {
-                "subItems": ["Now, you will need to fill at least 2 things:Speech title and Workbook/Speech "]
+                "subItems": ["Now, you will need to fill at least 2 things: Speech title and Workbook/Speech "]
             },
             {
                 "subItems": ["For Speech title, give anything you think is appropriate"]

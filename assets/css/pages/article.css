@@ -358,9 +358,11 @@ main {
   margin-bottom: 0;
 }
 .instruction__divider {
-  margin: 15px 0 calc(15px - 10px);
-  font-weight: bold;
-  text-transform: uppercase;
+  margin: 15px 0 15px;
+  font-weight: 600;
+}
+.instruction__divider:first-child {
+  margin-top: 0;
 }
 .instruction__olist ul, .instruction__ulist ul {
   list-style-type: disc;

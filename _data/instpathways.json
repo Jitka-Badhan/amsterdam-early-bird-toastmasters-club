@@ -103,7 +103,7 @@
                 "paragraphs": ["After your assignment is marked complete, you will see a small tick on top."]
             }
         ],
-        "divider": "Remember",
+        "divider": "REMEMBER",
         "unorderedInstructionsBottom": [
             {
                 "subItems": ["It is important to update the status of your assignment in Pathways."]
@@ -144,7 +144,7 @@
                 "subItems": ["First login to www.toastmasters.org and go to Pathways -> Go to Base Camp.", "Again select \"Go to Base Camp\" from the middle tile."]
             }
         ],
-        "divider": "2 steps and situations:",
+        "divider": "2 STEPS AND SITUATIONS:",
         "orderedInstructions": [
             {
                 "mainLine": "Get the evaluation form (if the speaker has not already given it to you)",
