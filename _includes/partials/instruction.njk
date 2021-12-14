@@ -15,10 +15,10 @@
                         
                         {% if inst.paragraphs.length > 1 %}
                             {% for paragraph in inst.paragraphs %}
-                                <p>{{ paragraph }}</p>
+                                <p>{{ paragraph | safe }}</p>
                             {% endfor %}
                         {% else %}
-                            {{ inst.paragraphs[0] }}
+                            {{ inst.paragraphs[0] | safe }}
                         {% endif %}
 
                         {% if inst.img-src %}
@@ -30,7 +30,7 @@
                         {% if inst.ulist %}
                             <ul class="instruction__ulist">
                                 {% for item in inst.ulist %}
-                                    <li class="instruction__list-subitem">{{ item }}</li>
+                                    <li class="instruction__list-subitem">{{ item | safe }}</li>
                                 {% endfor %}
                             </ul>
                         {% endif %}
@@ -38,7 +38,7 @@
                         {% if inst.olist %}
                             <ol class="instruction__olist">
                                 {% for item in inst.ulist %}
-                                    <li class="instruction__list-subitem">{{ item }}</li>
+                                    <li class="instruction__list-subitem">{{ item | safe }}</li>
                                 {% endfor %}
                             </ol>
                         {% endif %}
@@ -51,10 +51,10 @@
         {% if item.unorderedInstructionsTop %}
             {% for it in item.unorderedInstructionsTop %}
                 <div class="instruction__ulist--wrapper">
-                    <p>{{ it.mainLine }}</p>
+                    <p>{{ it.mainLine | safe }}</p>
                     <ul class="instruction__ulist">
                         {% for subItem in it.subItems %}
-                            <li class="instruction__list-item">{{ subItem }}</li>
+                            <li class="instruction__list-item">{{ subItem | safe }}</li>
                         {% endfor %}
                     </ul>
                 </div>
@@ -62,16 +62,16 @@
         {% endif %}
         
         {% if item.divider %}
-            <div class="instruction__divider">{{ item.divider }}</div>
+            <div class="instruction__divider">{{ item.divider | safe }}</div>
         {% endif %}
 
         {% if item.unorderedInstructionsBottom %}
             <div class="instruction__ulist--wrapper">
                 {% for it in item.unorderedInstructionsBottom %}
-                    {% if it.mainLine %}<p>{{ it.mainLine }}</p>{% endif %}
+                    {% if it.mainLine %}<p>{{ it.mainLine | safe }}</p>{% endif %}
                     <ul class="instruction__ulist">
                         {% for subItem in it.subItems %}
-                            <li class="instruction__list-item">{{ subItem }}</li>
+                            <li class="instruction__list-item">{{ subItem | safe }}</li>
                         {% endfor %}
                     </ul>
                 {% endfor %}
@@ -82,10 +82,10 @@
             <ol class="instruction__olist">
                 {% for it in item.orderedInstructions %}
                     <li class="instruction__olist-item">
-                        <p>{{ it.mainLine }}</p>
+                        <p>{{ it.mainLine | safe }}</p>
                         <ul class="instruction__olist-subitem--wrapper">
                             {% for subItem in it.subItems %}
-                                <li class="instruction__list-item">{{ subItem }}</li>
+                                <li class="instruction__list-item">{{ subItem | safe }}</li>
                             {% endfor %}
                         </ul>
                     </li>

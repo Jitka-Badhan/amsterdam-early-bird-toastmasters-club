@@ -154,10 +154,12 @@ section {
 }
 .menu a {
   color: #ffffff;
+  font-weight: 600;
   text-decoration: none;
 }
 .menu a:hover, .menu a:focus, .menu a:active {
   font-weight: bold;
+  letter-spacing: -0.3px;
 }
 .menu__link, .menu__anchors {
   padding: 8px 3px 5px;
@@ -173,7 +175,8 @@ section {
 .menu__anchors {
   visibility: visible;
   opacity: 1;
-  transition: visibility 0.5s, opacity 0.2s linear;
+  width: 100%;
+  transition: visibility 0.5s, opacity 0.5s linear;
   margin: 0 -30px;
   padding-left: 35px;
   padding-right: 35px;

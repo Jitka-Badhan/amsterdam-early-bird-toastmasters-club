@@ -43,6 +43,7 @@ cssFileName: roles
         {% endif %}
 
         {% if section.instructions %}
+            <h3>Step-by-step guide:</h3>
             {% for item in section.instructions %}
                 {% include 'partials/instruction.njk' %}
             {% endfor %}

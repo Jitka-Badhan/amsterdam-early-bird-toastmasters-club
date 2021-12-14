@@ -54,11 +54,13 @@ $gridUnit: 130px;
 
     a {
         color: v.$white;
+        font-weight: 600;
         text-decoration: none;
         &:hover,
         &:focus,
         &:active {
             font-weight: bold;
+            letter-spacing: -0.3px;
         }
     }
 
@@ -79,7 +81,8 @@ $gridUnit: 130px;
     &__anchors {
         visibility: visible;
         opacity: 1;
-        transition: visibility 0.5s, opacity 0.2s linear;
+        width: 100%;
+        transition: visibility 0.5s, opacity 0.5s linear;
         margin: 0 -30px;
         padding-left: 35px;
         padding-right: 35px;

@@ -6,14 +6,12 @@
     border-radius: 15px;
     margin-bottom: v.$margin-small;
     overflow: hidden;
-    > * {
-        padding: v.$margin-small;
-    }
 
     &__heading {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        padding: v.$margin-small;
         h4 {
             margin-bottom: 0;
         }
@@ -38,9 +36,16 @@
     }
 
     &__body {
-        border-top: 1px solid v.$black;
-        &--hidden {
-            display: none;
+        transition: height ease 0.6s;
+        > *:first-child {
+            padding-top: v.$margin-small;
+        }
+        > *:last-child {
+            padding-bottom: v.$margin-small;
+        }
+        > * {
+            margin-left: v.$margin-small;
+            margin-right: v.$margin-small;
         }
     }
 
@@ -52,13 +57,11 @@
         > p {
             margin: 0;
         }
-        &:last-child {
-            margin-bottom: 0;
-        }
     }
 
     &__divider {
-        margin: v.$margin-small 0 v.$margin-small;
+        margin-top: v.$margin-small;
+        margin-bottom: v.$margin-small;
         font-weight: 600;
         &:first-child {
             margin-top: 0;
@@ -66,6 +69,9 @@
     }
 
     &__olist, &__ulist {
+        &:last-child {
+            margin-bottom: 0;
+        }
         ul {
             list-style-type: disc;
             padding-left: 0;
