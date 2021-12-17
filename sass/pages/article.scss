@@ -7,19 +7,34 @@
 @use '../base/variables' as v;
 
 .article {
-    margin: 25px v.$margin-big 0 0;
+    margin: 0 v.$margin-small;
+
+    @media screen and (min-width: v.$screen-middle) {
+        margin: 0 v.$margin-big;
+    }
+
+    @media screen and (min-width: v.$screen-big) {
+        margin: 25px v.$margin-big 0 0;
+    }
 
     section {
         margin-bottom: v.$margin-big;
         &:not(:last-child)::after {
             display: block;
             content: '';
-            width: 10rem;
+            width: 20rem;
+            max-width: 100%;
             border-top: 1.5px dashed v.$black;
-            margin-top: v.$margin-middle;
+            margin: v.$margin-middle auto;
+            @media screen and (min-width: v.$screen-middle) {
+                margin-top: v.$margin-middle;
+                width: 10rem;
+            }
         }
         &:not(:last-child) > .button:last-child {
-            margin-bottom: -#{v.$margin-middle};
+            @media screen and (min-width: v.$screen-middle) {
+                margin-bottom: calc(-#{v.$margin-middle} / 2 );   
+            }
         }
     }
     
@@ -66,5 +81,24 @@
     &__box {
         background-color: v.$yellow-light;
         margin-top: v.$margin-small;
+    }
+}
+
+.faq {
+    a {
+        color: v.$black;
+        &:hover,
+        &:focus,
+        &:active {
+            color: v.$blue;
+        }
+    }
+    &__wrapper {
+        margin-bottom: v.$margin-middle;
+    }
+    &__question {
+        font-size: v.$big;
+        font-weight: 700;
+        margin-bottom: v.$margin-small;
     }
 }

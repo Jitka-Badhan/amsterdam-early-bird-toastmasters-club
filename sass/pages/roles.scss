@@ -15,44 +15,82 @@
         gap: 10px;
     
         > * {
-            flex: 0 0 calc((100% - 60px) / 6);
+            flex: 0 0 calc((100% - 30px) / 3);
+            @media screen and (min-width: v.$screen-middle) {
+                flex-basis: calc((100% - 60px) / 6);
+            }
         }
     }
 
     &__nav {
-        @include m.flexbox(space-between, true, 11);
+        @include m.flexbox(center, true, 11);
+        flex-wrap: wrap;
         align-items: flex-start;
+        margin-top: -100px;
         margin-bottom: v.$margin-middle;
-        height: 100px;
+        gap: 5px;
+        @media screen and (min-width: v.$screen-middle) {
+            gap: 0;
+            height: 100px;
+            justify-content: space-between;
+            margin-top: 0;
+        }
         > * {
-            flex: 0 0 calc((100% - 20px) / 11);
+            flex: 0 0 calc((100% - 25px) / 5);
+            @media screen and (min-width: v.$screen-middle) {
+                flex-basis: calc((100% - 35px) / 11);
+            }
+        }
+        &::after {
+            display: block;
+            content: '';
+            width: 20rem;
+            max-width: 100%;
+            border-top: 1.5px dashed v.$black;
+            margin: v.$margin-middle auto 0;
+            @media screen and (min-width: v.$screen-middle) {
+                display: none;
+            }
         }
 
         .role-icon {
             &__label {
-                display: none;
-                margin: 30px -35px;
+                font-size: 10px;
             }
-            &:hover,
-            &:focus,
-            &:active {
-                .role-icon__img--wrapper {
-                    transform: scale(1.5);
+            &__img--active + .role-icon__label {
+                display: none;
+            }
+
+            @media screen and (min-width: v.$screen-big) {
+                &__label {
+                    display: none;
+                    margin: 30px -35px;
+                    font-size: v.$smaller;
                 }
-                .role-icon__label {
-                    display: block;
-                }
-                .role-icon__img--active {
-                    transform: scale(1.7);
-                    + .role-icon__label {
-                        display: none;
+                &:hover,
+                &:focus,
+                &:active {
+                    .role-icon__img--wrapper {
+                        transform: scale(1.5);
+                    }
+                    .role-icon__label {
+                        display: block;
+                    }
+                    .role-icon__img--active {
+                        transform: scale(1.7);
+                        + .role-icon__label {
+                            display: none;
+                        }
                     }
                 }
             }
             &__img--active {
-                transform: scale(1.7);
+                transform: scale(1.5);
                 border-width: 2px;
                 box-shadow: 1px 1px 15px v.$yellow;
+                @media screen and (min-width: v.$screen-middle) {
+                    transform: scale(1.7);
+                }
             }
         }
     }
@@ -67,10 +105,21 @@
         }
     }
 
+    &__menu {
+        display: none;
+        @media screen and (min-width: v.$screen-middle) {
+            display: block;
+        }
+    }
+
     &__motto {
         font-size: v.$big;
         font-style: italic;
         margin-bottom: v.$margin-middle;
+        text-align: center;
+        @media screen and (min-width: v.$screen-middle) {
+            text-align: left;
+        }
     }
 
     &__section {

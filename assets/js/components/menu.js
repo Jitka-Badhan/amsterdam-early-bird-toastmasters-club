@@ -1,4 +1,5 @@
 const menu = (container) => {
+    console.log('triggered');
     const wrappers = container.querySelectorAll('.menu__link--wrapper');
 
     wrappers.forEach( wrapper => {

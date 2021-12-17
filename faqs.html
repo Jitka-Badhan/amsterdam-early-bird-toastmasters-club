@@ -4,4 +4,12 @@ title: FAQs
 cssFileName: article
 ---
 
-<p>Zde bude výčet otázek a odpovědí</p>
+<section class="faq">
+    {% for item in faqs %}
+        <div class="faq__wrapper">
+            <div class="faq__question">{{ item.question | safe }}</div>
+            <div class="faq__answer">{{ item.answer | safe }}</div>
+        </div>
+    {% endfor %}
+</section>
+

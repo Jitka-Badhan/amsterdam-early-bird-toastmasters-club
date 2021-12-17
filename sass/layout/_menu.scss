@@ -7,20 +7,22 @@ $gridUnit: 130px;
     .#{$class} {
         grid-area: $class;
         width: 100%;
-        justify-self: $justify;
-        align-self: $align;
-        @include m.flexbox(flex-start);
-        @if $reverse {
-            flex-direction: row-reverse;
-        }
-        &__btn {
-            flex-basis: $gridUnit;
-        }
-        &__side {
-            flex-basis: calc(100% - #{$gridUnit});
-            text-align: left;
+        @media screen and (min-width: v.$screen-big) {
+            justify-self: $justify;
+            align-self: $align;
+            @include m.flexbox(flex-start);
             @if $reverse {
-                text-align: right;
+                flex-direction: row-reverse;
+            }
+            &__btn {
+                flex-basis: $gridUnit;
+            }
+            &__side {
+                flex-basis: calc(100% - #{$gridUnit});
+                text-align: left;
+                @if $reverse {
+                    text-align: right;
+                }
             }
         }
     }
@@ -32,43 +34,82 @@ $gridUnit: 130px;
 
 .menu {
     display: grid;
-    grid-template-columns: 1fr $gridUnit 1fr;
+    grid-template-columns: repeat(4, 1fr);
     grid-template-areas:
-        "welcome mascot roles"
-        "starter mascot about"
+        "welcome starter roles about"
     ;
-    gap: 3px 0;
-    margin: -30px 30px 0;
+    gap: 5px;
+    margin: 0 5px;
 
     @include menuGrid(welcome, end, end, true);
     @include menuGrid(starter, end, start, true);
     @include menuGrid(roles, start, end);
     @include menuGrid(about, start, start);
 
-    &__mascot {
-        grid-area: mascot;
-        > img {
-            width: 100%;
-        }
+    @media screen and (min-width: v.$screen-middle) {
+        grid-template-columns: 1fr 1fr $gridUnit 1fr 1fr;
+        grid-template-areas:
+            "welcome starter mascot roles about"
+        ;
+        gap: 10px;
+        margin: v.$margin-small v.$margin-big 0;
     }
 
-    a {
+    @media screen and (min-width: v.$screen-big) {
+        margin: -30px 30px 0;
+        grid-template-columns: 1fr $gridUnit 1fr;
+        grid-template-areas:
+            "welcome mascot roles"
+            "starter mascot about"
+        ;
+        gap: 3px 0;
+    }
+
+        a {
+        display: block;
         color: v.$white;
         font-weight: 600;
         text-decoration: none;
+        font-size: v.$xsmall;
         &:hover,
         &:focus,
         &:active {
             font-weight: bold;
             letter-spacing: -0.3px;
         }
+        &.menu__mascot {
+            display: none;
+        }
+
+        @media screen and (min-width: v.$screen-middle) {
+            font-size: v.$smaller;
+            &.menu__mascot {
+                display: block;
+            }
+        }
+        
+        @media screen and (min-width: v.$screen-big) {
+            display: inline-block;
+        }
+    }
+
+    &__mascot {
+        margin-top: -30px;
+        grid-area: mascot;
+        > img {
+            width: 100%;
+        }
+
+        @media screen and (min-width: v.$screen-big) {
+            margin-top: 0;
+        }
     }
 
     &__link,
     &__anchors {
         padding: 8px 3px 5px;
-        border-radius: 15px;
         text-align: center;
+        position: relative;
     }
 
     &__link {
@@ -76,19 +117,84 @@ $gridUnit: 130px;
         text-transform: uppercase;
         font-weight: 600;
         font-size: v.$smaller;
+        border-radius: 15px;
     }
 
     &__anchors {
+        display: block;
+        margin-top: -15px;
+        padding-bottom: 25px;
         visibility: visible;
         opacity: 1;
         width: 100%;
+        height: 150px;
         transition: visibility 0.5s, opacity 0.5s linear;
-        margin: 0 -30px;
-        padding-left: 35px;
-        padding-right: 35px;
+        z-index: 0;
         > a {
             color: v.$black;
             padding: 0 5px;
+            font-size: 13px;
+            line-height: 1;
+            display: inline-flex;
+            align-items: center;
+            @media screen and (min-width: v.$screen-middle) {
+                font-size: v.$smaller;
+                line-height: 1.2;
+            }
+        }
+
+        @media screen and (min-width: v.$screen-middle) {
+            padding-bottom: v.$margin-middle;
+            height: 170px;
+        }
+        
+        @media screen and (min-width: v.$screen-big) {
+            display: inline-block;
+            margin: 0 -30px;
+            padding: 8px 35px 5px;
+            border-radius: 15px;
+            height: auto;
+        }
+    }
+
+    &__arrow {
+        display: none;      
+        @media screen and (max-width: v.$screen-big) {
+            display: block;
+            padding: 10px 0 0;
+            cursor: pointer;
+            @media screen and (min-width: v.$screen-middle) {
+                padding: 15px 0 10px;
+            }
+            ~ a {
+                height: 25px;
+                visibility: hidden;
+                opacity: 0;
+                transition: height linear 0.3s, visibility ease 0.6s, opacity ease 0.6s;
+            }
+            > img {
+                height: 10px;
+                width: 10px;
+                margin: 0 auto;
+                transform: rotate(0deg);
+                transition: transform 0.6s;
+                @media screen and (min-width: v.$screen-middle) {
+                    height: 15px;
+                    width: 15px;
+                }
+            }
+            &--toggle {
+                ~ a {
+                    visibility: visible;
+                    opacity: 1;
+                    @media screen and (min-width: v.$screen-middle) {
+                        height: 30px;
+                    }
+                }
+                > img {
+                    transform: rotate(180deg);
+                }
+            }
         }
     }
 
@@ -97,7 +203,10 @@ $gridUnit: 130px;
             background-color: v.$red;
         }
         &__side {
-            @include gradientBackground(v.$red-light, right);
+            @include gradientBackground(v.$red-light, top);
+            @media screen and (min-width: v.$screen-big) {
+                @include gradientBackground(v.$red-light, right);
+            }
         }
     }
 
@@ -106,7 +215,10 @@ $gridUnit: 130px;
             background-color: v.$orange;
         }
         &__side {
-            @include gradientBackground(v.$orange-light, right);
+            @include gradientBackground(v.$orange-light, top);
+            @media screen and (min-width: v.$screen-big) {
+                @include gradientBackground(v.$orange-light, right);
+            }
         }
     }
 
@@ -116,8 +228,11 @@ $gridUnit: 130px;
             color: v.$black;
         }
         &__side {
-            @include gradientBackground(v.$yellow-light, left);
+            @include gradientBackground(v.$yellow-light, top);
             color: v.$black;
+            @media screen and (min-width: v.$screen-big) {
+                @include gradientBackground(v.$yellow-light, left);
+            }
         }
     }
 
@@ -126,12 +241,17 @@ $gridUnit: 130px;
             background-color: v.$blue;
         }
         &__side {
-            @include gradientBackground(v.$blue-light, left);
+            @include gradientBackground(v.$blue-light, top);
+            @media screen and (min-width: v.$screen-big) {
+                @include gradientBackground(v.$blue-light, left);
+            }
         }
     }
 
     .hidden {
-        visibility: hidden;
-        opacity: 0;
+        @media screen and (min-width: v.$screen-big) {
+            visibility: hidden;
+            opacity: 0;
+        }
     }
 }

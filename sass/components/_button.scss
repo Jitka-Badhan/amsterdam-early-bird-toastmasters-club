@@ -9,10 +9,14 @@
     color: v.$white;
     padding: 8px 20px 5px;
     text-decoration: none;
-    margin: v.$margin-middle 0 v.$margin-middle auto;
+    margin: v.$margin-middle auto;
     border-radius: 15px;
     &:hover,
     &:active {
         color: v.$yellow;
+    }
+
+    @media screen and (min-width: v.$screen-middle) {
+        margin-right: 0;
     }
 }

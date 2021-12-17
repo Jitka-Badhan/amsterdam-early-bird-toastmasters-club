@@ -1,9 +1,33 @@
 @use '../base/variables' as v;
 
 .side {
+    margin: 0 v.$margin-small v.$margin-middle;
     background-color: v.$yellow-light;
-    margin-top: 30px;
-    padding: 25px;
+    padding: v.$margin-small;
     border-radius: 15px;
-    min-height: 50vh;
+
+    @media screen and (min-width: v.$screen-middle) {
+        margin: 0 v.$margin-big v.$margin-big;
+        padding: 25px;
+    }
+
+    @media screen and (min-width: v.$screen-big) {
+        margin: v.$margin-middle 0 0;
+    }
+
+    &__link {
+        display: block;
+        margin-bottom: v.$margin-small;
+        font-weight: 600;
+        text-decoration: none;
+        color: v.$black;
+        &:hover,
+        &:focus,
+        &:active {
+            font-weight: 700;
+            color: v.$blue;
+            letter-spacing: -0.25px;
+            text-decoration: underline;
+        }
+    }
 }

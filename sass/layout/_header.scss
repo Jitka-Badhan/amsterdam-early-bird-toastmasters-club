@@ -3,36 +3,58 @@
 
 .header {
     @include m.flexbox(space-between);
-    padding: 5px 30px;
+    margin: 8px v.$margin-small;
+
+    @media screen and (min-width: v.$screen-middle) {
+        margin: 0;
+        padding: 5px 30px;
+    }
     z-index: 1;
 
     a {
+        font-size: v.$small;
         text-decoration: none;
         color: v.$black;
+        @media screen and (min-width: v.$screen-middle) {
+            font-size: v.$smaller;
+        }
     }
     
     &__logo-toastm-int {
         @include m.flexbox(center);
-        height: 40px;
+        height: 25px;
+        margin-right: v.$margin-middle;
+        @media screen and (min-width: v.$screen-middle) {
+            height: 40px;
+        }
     }
 
     &__img {
         height: 100%;
         &--label {
-            padding-left: 15px;
+            display: none;
+            @media screen and (min-width: v.$screen-middle){
+                display: block;
+                padding-left: 15px;
+            }
         }
     }
 
     &__nav {
         @include m.flexbox(space-between);
-        width: 25vw;
-        min-width: 250px;
+        width: 75%;
+        max-width: 250px;
         > a {
             &:hover,
             &:focus,
             &:active {
                 text-decoration: underline;
             }
+        }
+        @media screen and (min-width: v.$screen-middle) {
+            width: 25vw;
+            min-width: 250px;
+            max-width: unset;
         }
     }
 }

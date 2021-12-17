@@ -1,29 +1,30 @@
 <nav class="menu">
-    
     <a href="/" class="menu__mascot">
         <img src="/assets/images/amsterdam-early-bird-big.png" alt="Amsterdam Toastmasters Mascot">
     </a>
     
     <div class="menu__link--wrapper welcome">
         <a href="/welcome/" class="menu__link welcome__btn {{ 'active' if page.fileSlug === 'welcome' }}">Welcome</a>
-        <span class="menu__anchors welcome__side {{ 'hidden' if page.fileSlug !== 'welcome' }}">
+        <span class="menu__anchors welcome__side {{ 'hidden' if page.fileSlug !== 'welcome' }} {{ 'role__menu' if page.fileSlug === 'role-pages' }}">
+            <span class="menu__arrow {{ 'menu__arrow--toggle' if page.fileSlug === 'welcome' }}"><img src="/assets/images/arrow.png" alt="menu arrow icon" /></span>
             <a href="/welcome/#promise">Toastmaster's Promise</a>
         </span>
     </div>
     
     <div class="menu__link--wrapper roles">
         <a href="/roles/" class="menu__link roles__btn {{ 'active' if page.fileSlug === 'roles' }}">Roles Defs</a>
-        <span class="menu__anchors roles__side {{ 'hidden' if page.fileSlug !== 'roles' }}">
+        <span class="menu__anchors roles__side {{ 'hidden' if page.fileSlug !== 'roles' }} {{ 'role__menu' if page.fileSlug === 'role-pages' }}">
+            <span class="menu__arrow {{ 'menu__arrow--toggle' if page.fileSlug === 'roles' }}"><img src="/assets/images/arrow.png" alt="menu arrow icon" /></span>
             <a href="/roles/online-host/">Online Host</a>
             <a href="/roles/speaker/">Speaker</a>
             <a href="/roles/evaluator/">Evaluator</a>
-            <a href="/roles/">...</a>
         </span>
     </div>
     
     <div class="menu__link--wrapper starter">
         <a href="/starter-kit/" class="menu__link starter__btn {{ 'active' if page.fileSlug === 'starter-kit' }}">Starter Kit</a>
-        <span class="menu__anchors starter__side {{ 'hidden' if page.fileSlug !== 'starter-kit' }}">
+        <span class="menu__anchors starter__side {{ 'hidden' if page.fileSlug !== 'starter-kit' }} {{ 'role__menu' if page.fileSlug === 'role-pages' }}">
+            <span class="menu__arrow {{ 'menu__arrow--toggle' if page.fileSlug === 'starter-kit' }}"><img src="/assets/images/arrow.png" alt="menu arrow icon" /></span>
             <a href="/starter-kit/#pathways">Pathways</a>
             <a href="/starter-kit/#easy-speak">Easy Speak</a>
         </span>
@@ -31,7 +32,8 @@
 
     <div class="menu__link--wrapper about">
         <a href="/about-us/" class="menu__link about__btn {{ 'active' if page.fileSlug === 'about-us' }}">About us</a>
-        <span class="menu__anchors about__side {{ 'hidden' if page.fileSlug !== 'about-us' }}">
+        <span class="menu__anchors about__side {{ 'hidden' if page.fileSlug !== 'about-us' }} {{ 'role__menu' if page.fileSlug === 'role-pages' }}">
+            <span class="menu__arrow {{ 'menu__arrow--toggle' if page.fileSlug === 'about-us' }}"><img src="/assets/images/arrow.png" alt="menu arrow icon" /></span>
             <a href="/about-us/#mascot">Our Mascot</a>
             <a href="/about-us/#contests">Contests</a>
             <a href="/about-us/#officers">Club Officers</a>

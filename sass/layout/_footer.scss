@@ -2,11 +2,15 @@
 @use '../base/mixins' as m;
 
 .footer {
-    @include m.flexbox(space-between);
     background-color: v.$black;
     color: v.$white;
     font-size: v.$small;
-    padding: 5px 30px;
+    padding: v.$margin-small;
+
+    @media screen and (min-width: v.$screen-middle) {
+        @include m.flexbox(space-between);
+        padding: 5px v.$margin-middle;
+    }
 
     a {
         color: v.$white;
@@ -15,7 +19,17 @@
         }
     }
 
-    &__copyright > *:not(:first-child) {
-        padding-left: 5px;
+    &__copyright {
+        margin-bottom: v.$margin-small;
+
+        @media screen and (min-width: v.$screen-middle) {
+            margin-bottom: 0;
+        }
+
+        @media screen and (min-width: v.$screen-big) {
+            > *:not(:first-child) {
+                padding-left: 5px;
+            }
+        }
     }
 }
