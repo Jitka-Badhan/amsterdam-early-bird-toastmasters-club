@@ -1,51 +1,51 @@
 [
     {
-        "name": "Natascha Jacobsz",
+        "name": "Cinzia Berrittella",
         "function": "President",
-        "photo": "natasha.jpg",
-        "email": "natascha.jacobsz@gmail.com",
+        "photo": "cinzia.jpg",
+        "email": "c.berrittella@gmail.com",
         "talkabout": ["Most club related things (if you don't know whom you should ask, ask the President and even if you know whom to ask but the person is unavailable, ask the President)", "Exchanges with other Clubs", "Ideas for the Club gatherings (especially the 5th Saturdays of the month)", "Leadership skills / opportunities"]
     }, 
     {
-        "name": "Cinzia Berrittella",
+        "name": "Pujun Li",
         "function": "Vice President of Education",
         "photo": "cinzia.jpg",
-        "email": "c.berrittella@gmail.com",
+        "email": "lipujun1211@gmail.com",
         "talkabout": ["Your educational goals", "Anything related to Easy speak or Pathways", "Signing up for meetings", "Competing in speech contests"]
     },
     {
-        "name": "Gelar Wijaya",
+        "name": "Dhani van der Zijde",
         "function": "Vice President Membership",
         "photo": "gelar.jpg",
-        "email": "gelar.gelar@yahoo.com",
+        "email": "cheat2015@outlook.com",
         "talkabout": ["Bringing a friend/co-worker to one of our gatherings", "All things related to your membership status", "Not being able to attend gatherings for an extended period of time", "Offering your help greeting guests", "Suggestions + feedback for improving our gatherings", "GDPR questions", "Membership fees"]
     },
     {
-        "name": "Tereza Herodková",
+        "name": "Anuththara Hewamadduma",
         "function": "Vice President of Public Relations",
         "photo": "tereza.png",
-        "email": "herodkova.t@gmail.com",
+        "email": "anuththara.hewamadduma@gmail.com",
         "talkabout": ["Public website, Facebook, LinkedIn, and ideas on the content", "Using Toastmasters logo and branding", "Club PR opportunities", "Throwing a party, hosting a BBQ, etc. for your fellow toastmasters", "GDPR"]
     },
     {
-        "name": "Seda Asolar",
+        "name": "Ksenia Sartori",
         "function": "Secretary",
         "photo": "seda.jpg",
-        "email": "seda.neth@gmail.com",
+        "email": "sartori_k@yahoo.com",
         "talkabout": ["Club meetings minutes, club business", "Officers meeting minutes, agreements made", "GDPR", "Public speaking", "Pathways approvals (I'm VPE's back-up in BaseCamp)"]
     },
     {
-        "name": "Ankit Tomar",
+        "name": "Jenny Wing ka Chan",
         "function": "Treasurer",
         "photo": "ankit.jpg",
-        "email": "ankitdot0290@gmail.com",
+        "email": "jennychanwingkajc@gmail.com",
         "talkabout": ["Money", "Planned expenses", "Reimbursements"]
     },
     {
-        "name": "Babs Servaas",
+        "name": "Saatvik Shah",
         "function": "Sergeant at Arms",
         "photo": "babs.jpg",
-        "email": "babs.servaas@gmail.com",
+        "email": "saatvikshah1994@gmail.com",
         "talkabout": ["Extra time", "Online meeting settings", "Room set-up", "Stationery at meeting", "Projector usage", "Setting-up boards / flip-overs", "Gathering roles / what's expected"]
     }
 ]
