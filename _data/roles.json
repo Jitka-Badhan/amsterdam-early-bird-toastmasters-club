@@ -273,7 +273,7 @@
                         ]
                     },
                     {
-                        "heading": "Regular meetings",
+                        "heading": "During the meeting",
                         "instructions": [
                             {
                                 "paragraphs": ["Once you arrive at the meeting, take a seat at our central table which is very visible to the speaker."]
@@ -290,6 +290,9 @@
                             {
                                 "paragraphs": ["Make sure we finish it on time. This means, if the President wants to make club announcements at the end of the meeting, make sure Table Topics finish at least 10 mins before the end time. If the President has already made club announcements, then you can allow more Table Topics according to time."]
                             },
+                            {
+                                "paragraphs": ["In the begining of the meeting when called by the General Evaluator - introduce your role. This is important for guests."]
+                            },                                                                               
                             {
                                 "paragraphs": ["When recording timing, you will show:"],
                                 "ulist": ["GREEN📗card: When member finishes minimum time", "YELLOW 📒card: Mid way to reaching maximum time", "RED 🔴card: After completing maximum time", "BELL 🛎️: 30 seconds after RED card"]
@@ -328,6 +331,9 @@
                         "instructions": [
                             {
                                 "paragraphs": ["Bring your own notebook/paper and make a note of all the crutch words that the member on stage uses."]
+                            },
+                            {
+                                "paragraphs": ["In the begining of the meeting when the General Evaluator calls the team - introduce your role. This is important for guests."]
                             },
                             {
                                 "paragraphs": ["You will make a report for everyone, up until you are called by the General evaluator to give a report."]
