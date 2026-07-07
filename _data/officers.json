@@ -3,6 +3,7 @@
         "name": "Tatiana Sorokvasha",
         "function": "President",
         "photo": "Tatiana.png",
+        "objectPosition": "center 20%",
         "email": "levush.co@gmail.com",
         "talkabout": ["Most club related things (if you don't know whom you should ask, ask the President and even if you know whom to ask but the person is unavailable, ask the President)", "Exchanges with other Clubs", "Ideas for the Club gatherings (especially the 5th Saturdays of the month)", "Leadership skills / opportunities"]
     },
@@ -10,6 +11,7 @@
         "name": "Nour Alhorany",
         "function": "Vice President Membership",
         "photo": "Nur.png",
+        "objectPosition": "center 15%",
         "email": "eng.nurhorany@gmail.com",
         "talkabout": ["Bringing a friend/co-worker to one of our gatherings", "All things related to your membership status", "Not being able to attend gatherings for an extended period of time", "Offering your help greeting guests", "Suggestions + feedback for improving our gatherings", "GDPR questions", "Membership fees"]
     },
@@ -17,6 +19,7 @@
         "name": "Ivelin Ivanov",
         "function": "Vice President of Public Relations",
         "photo": "Ivo.jpeg",
+        "objectPosition": "center top",
         "email": "ivelin.aleksandrov.ivanov@gmail.com",
         "talkabout": ["Public website, Facebook, LinkedIn, and ideas on the content", "Using Toastmasters logo and branding", "Club PR opportunities", "Throwing a party, hosting a BBQ, etc. for your fellow toastmasters", "GDPR"]
     },
@@ -24,6 +27,7 @@
         "name": "Naviin Prabhu",
         "function": "Vice President of Education",
         "photo": "Naviin.jpg",
+        "objectPosition": "center top",
         "email": "naviin.prabhu@gmail.com",
         "talkabout": ["Your educational goals", "Anything related to Easy speak or Pathways", "Signing up for meetings", "Competing in speech contests"]
     },
@@ -31,6 +35,7 @@
         "name": "Anushka Deshpande",
         "function": "Treasurer",
         "photo": "Anushka.jpg",
+        "objectPosition": "center 20%",
         "email": "anushka26f@gmail.com",
         "talkabout": ["Money", "Planned expenses", "Reimbursements"]
     },
@@ -38,6 +43,7 @@
         "name": "Michal Gordon",
         "function": "Secretary",
         "photo": "Michael.jpg",
+        "objectPosition": "center 20%",
         "email": "michaldg@gmail.com",
         "talkabout": ["Club meetings minutes, club business", "Officers meeting minutes, agreements made", "GDPR", "Public speaking", "Pathways approvals (I'm VPE's back-up in BaseCamp)"]
     },
@@ -45,6 +51,7 @@
         "name": "Henry Philip Duggan",
         "function": "Sergeant at Arms",
         "photo": "Henry.jpeg",
+        "objectPosition": "center 15%",
         "email": "Henry.duggan@icloud.com",
         "talkabout": ["Extra time", "Online meeting settings", "Room set-up", "Stationery at meeting", "Projector usage", "Setting-up boards / flip-overs", "Gathering roles / what's expected"]
     },
@@ -52,6 +59,7 @@
         "name": "Sergey Garchenko",
         "function": "Sergeant at Arms",
         "photo": "Sergey.jpg",
+        "objectPosition": "70% 30%",
         "email": "sergey_garchenko@hotmail.com",
         "talkabout": ["Extra time", "Online meeting settings", "Room set-up", "Stationery at meeting", "Projector usage", "Setting-up boards / flip-overs", "Gathering roles / what's expected"]
     }
