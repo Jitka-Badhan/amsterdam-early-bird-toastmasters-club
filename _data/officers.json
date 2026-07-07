@@ -45,6 +45,7 @@
         "function": "Secretary",
         "photo": "Michael.jpg",
         "objectPosition": "55% 30%",
+        "objectFit": "contain",
         "portrait": true,
         "email": "michaldg@gmail.com",
         "talkabout": ["Club meetings minutes, club business", "Officers meeting minutes, agreements made", "GDPR", "Public speaking", "Pathways approvals (I'm VPE's back-up in BaseCamp)"]
@@ -54,6 +55,7 @@
         "function": "Sergeant at Arms",
         "photo": "Henry.jpeg",
         "objectPosition": "center 30%",
+        "objectFit": "contain",
         "portrait": true,
         "email": "Henry.duggan@icloud.com",
         "talkabout": ["Extra time", "Online meeting settings", "Room set-up", "Stationery at meeting", "Projector usage", "Setting-up boards / flip-overs", "Gathering roles / what's expected"]
