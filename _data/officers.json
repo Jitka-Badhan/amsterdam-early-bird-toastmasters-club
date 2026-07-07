@@ -53,7 +53,7 @@
         "name": "Henry Philip Duggan",
         "function": "Sergeant at Arms",
         "photo": "Henry.jpeg",
-        "objectPosition": "center top",
+        "objectPosition": "center 30%",
         "portrait": true,
         "email": "Henry.duggan@icloud.com",
         "talkabout": ["Extra time", "Online meeting settings", "Room set-up", "Stationery at meeting", "Projector usage", "Setting-up boards / flip-overs", "Gathering roles / what's expected"]

@@ -2,7 +2,7 @@
     <div class="officer__container">
         <div class="officer__side officer__side--narrow">
             <div class="officer__function">{{ officer.function }}</div>
-            <div class="officer__img--wrapper"{% if officer.portrait %} style="aspect-ratio: 3/4; height: auto; max-height: none; border-radius: 15px;"{% endif %}>
+            <div class="officer__img--wrapper"{% if officer.portrait %} style="aspect-ratio: 3/4; height: auto; max-height: 333px; border-radius: 15px;"{% endif %}>
                 <img class="officer__img" src="/assets/images/officers/{{ officer.photo }}" alt="{{ officer.name }}'s photo" style="object-position: {{ officer.objectPosition or 'center' }}" />
             </div>
         </div>
