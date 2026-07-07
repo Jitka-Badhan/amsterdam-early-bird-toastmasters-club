@@ -11,7 +11,8 @@
         "name": "Nour Alhorany",
         "function": "Vice President Membership",
         "photo": "Nur.png",
-        "objectPosition": "center 30%",
+        "objectPosition": "center top",
+        "portrait": true,
         "email": "eng.nurhorany@gmail.com",
         "talkabout": ["Bringing a friend/co-worker to one of our gatherings", "All things related to your membership status", "Not being able to attend gatherings for an extended period of time", "Offering your help greeting guests", "Suggestions + feedback for improving our gatherings", "GDPR questions", "Membership fees"]
     },
@@ -43,7 +44,8 @@
         "name": "Michal Gordon",
         "function": "Secretary",
         "photo": "Michael.jpg",
-        "objectPosition": "center 35%",
+        "objectPosition": "55% 30%",
+        "portrait": true,
         "email": "michaldg@gmail.com",
         "talkabout": ["Club meetings minutes, club business", "Officers meeting minutes, agreements made", "GDPR", "Public speaking", "Pathways approvals (I'm VPE's back-up in BaseCamp)"]
     },
@@ -51,7 +53,8 @@
         "name": "Henry Philip Duggan",
         "function": "Sergeant at Arms",
         "photo": "Henry.jpeg",
-        "objectPosition": "center 25%",
+        "objectPosition": "center top",
+        "portrait": true,
         "email": "Henry.duggan@icloud.com",
         "talkabout": ["Extra time", "Online meeting settings", "Room set-up", "Stationery at meeting", "Projector usage", "Setting-up boards / flip-overs", "Gathering roles / what's expected"]
     },
